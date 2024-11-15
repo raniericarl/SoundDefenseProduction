@@ -1,0 +1,18 @@
+.150060VS75000 :1 ;2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000
+LEDC1608X80N
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 150060VS75000
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (150060VS75000)
+~!Mouser Part Number (710-150060VS75000)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf)
+~!Height (0.8mm)
+~!3D_Model (150060VS75000)
+"150060VS75000"
+1.1!U 2.1!U 

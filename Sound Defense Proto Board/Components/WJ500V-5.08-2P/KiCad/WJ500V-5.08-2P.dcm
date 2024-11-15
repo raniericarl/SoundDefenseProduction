@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WJ500V-5.08-2P
+D P=5.08mm Screw terminal
+K
+F https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ500V-5-08-2P_C8465.pdf
+$ENDCMP
+#
+#End Doc Library

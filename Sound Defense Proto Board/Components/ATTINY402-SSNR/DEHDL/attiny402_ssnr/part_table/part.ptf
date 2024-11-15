@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATTINY402_SSNR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATTINY402-SSNR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "579-ATTINY402-SSNR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY402-SSNR?qs=y6ZabgHbY%252ByACmf8rx9w5A%3D%3D", "ATTINY402-SSNR", "https://www.arrow.com/en/products/attiny402-ssnr/microchip-technology?region=nac", "MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R", "https://www.microchip.com/", "1.75 mm"
+END_PART
+
+END.

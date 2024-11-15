@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM188R61E106MA73D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=5.1
+Released=2023-03-07 08:47:56
+Downloaded=2024-10-30 17:32:23
+3D=Y

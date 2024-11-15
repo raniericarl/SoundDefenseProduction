@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WJ500V-5_08-2P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-20-04:35:04)
+    (mountForm default
+        (footprintRef "WJ500V5082P")
+        (spec "System")
+    )
+)

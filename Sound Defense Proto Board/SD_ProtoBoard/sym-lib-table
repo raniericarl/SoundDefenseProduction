@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Symbols")(type "KiCad")(uri "/Users/carlranieri/Desktop/Sound Defense Proto Board/Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "SD_LIB")(type "KiCad")(uri "${KIPRJMOD}/SD_LIB.kicad_sym")(options "")(descr ""))
+)

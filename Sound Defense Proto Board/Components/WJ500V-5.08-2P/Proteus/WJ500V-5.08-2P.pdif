@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "WJ500V-5.08-2P"
+   (description "P=5.08mm Screw terminal")
+   (family "CON")
+   (package "WJ500V5082P")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ500V-5-08-2P_C8465.pdf")
+   (attribute "Geometry.Height" "14.2mm")
+   (attribute "Manufacturer_Name" "Ningbo Kangnex")
+   (attribute "Manufacturer_Part_Number" "WJ500V-5.08-2P")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "WJ500V-5.08-2P")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "WJ500V-5.08-2P"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "WJ500V5082P"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.64 5.5)
+      (pt 8.32 5.5)
+      (pt 8.32 -4.5)
+      (pt -2.64 -4.5)
+      (pt -2.64 5.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.64 5.5)
+      (pt 8.32 5.5)
+      (pt 8.32 -4.5)
+      (pt -2.64 -4.5)
+      (pt -2.64 5.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.64 6.5)
+      (pt 9.32 6.5)
+      (pt 9.32 -5.5)
+      (pt -3.64 -5.5)
+      (pt -3.64 6.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.2 -0.2)
+      (arc (pt -3.200 -0.200) (pt -3.200 -0.250) (pt -3.100 -0.150) (start 180.0) (sweep 180.0))
+      (pt -3.1 -0.2)
+      (arc (pt -3.100 -0.200) (pt -3.200 -0.250) (pt -3.100 -0.150) (start 180.0) (sweep .0))
+      (pt -3.2 -0.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (model "WJ500V-5.08-2P.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

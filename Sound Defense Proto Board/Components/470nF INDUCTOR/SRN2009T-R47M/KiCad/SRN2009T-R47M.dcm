@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN2009T-R47M
+D Inductor Power Semi-Shielded Wirewound 470nH 20% 1MHz 25Q-Factor Ferrite 2A 38mOhm DCR 0806 T/R
+K
+F https://componentsearchengine.com/Datasheets/1/SRN2009T-R47M.pdf
+$ENDCMP
+#
+#End Doc Library

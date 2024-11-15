@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RC0402JR_0710KL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "YAGEO", "RC0402JR-0710KL" (!) = "", "RESC1005X40N", "Resistor Chip", "603-RC0402JR-0710KL", "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D", "RC0402JR-0710KL", "https://www.arrow.com/en/products/rc0402jr-0710kl/yageo?region=nac", "Yageo 10k, 0402 (1005M) Thick Film SMD Resistor +/-5% 0.0625W - RC0402JR-0710KL", "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf", "0.4 mm"
+END_PART
+
+END.

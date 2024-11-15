@@ -1,0 +1,18 @@
+.PAM8906M1018-13 :1 ;Audio Amplifiers Audio Low Volt MSOP-10 T&R 2.5K
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VCC" 2="GND" 3="BOOT" 4="SW" 5="VOUT" 6="OUTN" 7="OUTP" 8="FB" 9="DIN" 10="VIN"
+*MXP 10
+*DFN PAM8906M1018-13
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (PAM8906M1018-13)
+~!Mouser Part Number (621-PAM8906M1018-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8906M1018-13?qs=amGC7iS6iy89BpBhX%252BV0cg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/PAM8906.pdf)
+~!Height (1.1mm)
+~!3D_Model (PAM8906M1018-13)
+PAM8906M1018-13
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

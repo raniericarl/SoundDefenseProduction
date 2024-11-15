@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PAM8906M1018-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-07-04:16:22)
+    (mountForm default
+        (footprintRef "SOP50P490X110-10N")
+        (spec "System")
+    )
+)

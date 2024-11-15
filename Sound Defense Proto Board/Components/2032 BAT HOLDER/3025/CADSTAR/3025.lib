@@ -1,0 +1,18 @@
+.3025 :1 ;Coin Cell Battery Holders THM COIN CELL CLIP FOR (2) 2032
+"3025"
+*STM U
+*NGS
+*PLB 1="+_1" 2="+_2" 3="-"
+*MXP 3
+*DFN 3025
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (3025)
+~!Mouser Part Number (534-3025)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3025?qs=F3SQOOfR3Vt%252BCgjaGDhpOQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.keyelco.com/product-pdf.cfm?p=740)
+~!Height (7.75mm)
+~!3D_Model (3025)
+"3025"
+1.1!U 2.1!U 3.1!U 

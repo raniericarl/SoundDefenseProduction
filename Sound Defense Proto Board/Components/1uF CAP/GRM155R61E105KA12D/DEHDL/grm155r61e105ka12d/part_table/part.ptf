@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GRM155R61E105KA12D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "GRM155R61E105KA12D" (!) = "", "CAPC1005X55N", "Capacitor Chip Non-polarised", "81-GRM155R61E105KA2D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R61E105KA12D?qs=hiffU4J9V6bE4a81t2Mv5A%3D%3D", "GRM155R61E105KA12D", "https://www.arrow.com/en/products/grm155r61e105ka12d/murata-manufacturing?region=nac", "MURATA - GRM155R61E105KA12D - CAP, MLCC, X5R, 1UF, 25V, 0402", "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf", "0.55 mm"
+END_PART
+
+END.

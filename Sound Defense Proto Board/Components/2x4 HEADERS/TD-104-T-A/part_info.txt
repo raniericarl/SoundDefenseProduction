@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=TD-104-T-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2017-01-11 19:42:01
+Downloaded=2024-10-30 18:56:39
+3D=N

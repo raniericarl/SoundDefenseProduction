@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_233419"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:54:30)
+    (utime 2024-02-20-14:15:58)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GRM155R61E105KA12D")
+)
+
+
+(pinAssign "ECS_233419"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:54:30)
+    (utime 2024-02-20-14:15:58)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_233419")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GRM155R61E105KA12D")
+)
+
+
+(part "GRM155R61E105KA12D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:54:30)
+    (utime 2024-02-20-14:15:58)
+    (packageRef "GRM155R61E105KA12D")
+    (pinAssignRef "ECS_233419")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "MURATA - GRM155R61E105KA12D - CAP, MLCC, X5R, 1UF, 25V, 0402")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "GRM155R61E105KA12D")
+    (property "Mouser_Part_Number" "81-GRM155R61E105KA2D")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R61E105KA12D?qs=hiffU4J9V6bE4a81t2Mv5A%3D%3D")
+    (property "Arrow_Part_Number" "GRM155R61E105KA12D")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/grm155r61e105ka12d/murata-manufacturing?region=nac")
+    (property "Datasheet_Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

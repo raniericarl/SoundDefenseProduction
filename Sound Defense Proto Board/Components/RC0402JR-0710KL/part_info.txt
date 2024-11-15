@@ -1,0 +1,9 @@
+Manufacturer=YAGEO
+PartNumber=RC0402JR-0710KL
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2023-05-12 04:16:24
+Downloaded=2024-10-30 19:33:32
+3D=Y

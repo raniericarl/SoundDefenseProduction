@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SRN2009T-R47M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-26-13:17:41)
+    (mountForm default
+        (footprintRef "INDC2016X95N")
+        (spec "System")
+    )
+)

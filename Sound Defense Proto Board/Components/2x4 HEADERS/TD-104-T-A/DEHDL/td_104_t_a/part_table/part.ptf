@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TD_104_T_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "TD-104-T-A" (!) = "", "SAMTEC_TD-104-T-A", "Other", "", "", "TD-104-T-A", "https://www.arrow.com/en/products/td-104-t-a/samtec", "CONN RECEPTACLE, 2.54MM, THT VERT, 8WAY", ""
+END_PART
+
+END.

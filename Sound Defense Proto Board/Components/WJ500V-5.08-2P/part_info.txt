@@ -1,0 +1,9 @@
+Manufacturer=Ningbo Kangnex
+PartNumber=WJ500V-5.08-2P
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-08-20 04:35:04
+Downloaded=2024-10-30 18:35:42
+3D=Y

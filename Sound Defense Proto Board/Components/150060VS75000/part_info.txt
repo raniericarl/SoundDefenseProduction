@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=150060VS75000
+PartCategory=LED
+PackageCategory=LEDs Chip
+PinCount=2
+Version=1.1
+Released=2020-10-05 10:36:22
+Downloaded=2024-11-08 17:09:03
+3D=Y

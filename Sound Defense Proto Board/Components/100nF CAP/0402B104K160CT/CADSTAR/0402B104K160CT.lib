@@ -1,0 +1,18 @@
+.0402B104K160CT :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10% 16V
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 0402B104K160CT
+~!Manufacturer_Name (Walsin Technology Corporation)
+~!Manufacturer_Part_Number (0402B104K160CT)
+~!Mouser Part Number (791-0402B104K160CT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Walsin/0402B104K160CT?qs=fIkAfuXiAQJ1PS4dYXnTSQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/0402B104K160CT.pdf)
+~!Height (0.55mm)
+~!3D_Model (0402B104K160CT)
+"0402B104K160CT"
+1.1!U 2.1!U 

@@ -12,7 +12,7 @@ unsigned long buttonPressTime = 0; // Tracks when the button was first pressed
 bool buttonHeld = false;     // Tracks if the button is held long enough
 
 // ALARM TONE PLAYING LOGISTICS
-const unsigned long toneInterval = 0.6; // Interval between tone frequency updates in milliseconds
+const unsigned long toneInterval = 0.6; // Interval between tone frequency updates in milliseconds was (0.6ms)
 unsigned long previousMillis = 0;
 int x = 0; // Variable to iterate over the sine wave values
 float sinVal;
@@ -66,24 +66,46 @@ void loop() {
 }
 
 void alarmTone() {
+  static unsigned long previousToneMillis = 0;
+  static unsigned long previousDutyCycleMillis = 0;
+  static int x = 0;
+  static bool toneOn = true; // Flag to toggle tone state
+  const unsigned long dutyCyclePeriod = 1000; // Total period for duty cycle (in ms)
+  const float dutyCycle = 0.7; // Duty cycle as a fraction (e.g., 0.5 for 50%)
+
   unsigned long currentMillis = millis();
 
-  // Check if it's time to update the tone
-  if (currentMillis - previousMillis >= toneInterval) {
-    previousMillis = currentMillis; // Reset the timer
-    
-    // Calculate the sine value and corresponding frequency
-    sinVal = sin(x * (3.1412 / 180));
-    toneVal = 3300 + (int(sinVal * 1000));
-    tone(piezoPin, toneVal); // Play the tone at the calculated frequency
-    x++; // Increment the angle for the next sine calculation
+  // Update the tone frequency based on sine wave
+  if (currentMillis - previousToneMillis >= toneInterval) {
+    previousToneMillis = currentMillis;
 
-    // Reset the angle to keep it within 0-180 degrees
+    if (toneOn) {
+      // Calculate the sine value and corresponding frequency
+      float sinVal = sin(x * (3.1412 / 180));
+      int toneVal = 3300 + (int(sinVal * 1000));
+      tone(piezoPin, toneVal); // Play the tone at the calculated frequency
+    }
+    else {
+      noTone(piezoPin);
+    }
+
+    // Increment the angle for the sine calculation
+    x++;
     if (x >= 180) {
       x = 0;
     }
   }
+
+  // Manage the ON/OFF state based on the duty cycle
+  if (currentMillis - previousDutyCycleMillis >= dutyCyclePeriod) {
+    previousDutyCycleMillis = currentMillis;
+    toneOn = true; // Restart the duty cycle
+  } else if (currentMillis - previousDutyCycleMillis >= dutyCyclePeriod * dutyCycle) {
+    toneOn = false; // Turn OFF after the ON portion of the duty cycle
+  }
 }
+
+
 
 void enterSleepMode() {
   set_sleep_mode(SLEEP_MODE_PWR_DOWN); // Set the desired sleep mode

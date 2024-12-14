@@ -1,0 +1,18 @@
+.0402WGF5101TCE :1 ;Chip Resistor - Surface Mount 5.1KOhms +/-1% 1/16W 0402 RoHS
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 0402WGF5101TCE
+~!Manufacturer_Name (UNI-ROYAL(Uniroyal Elec))
+~!Manufacturer_Part_Number (0402WGF5101TCE)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf)
+~!Height (0.4mm)
+~!3D_Model (0402WGF5101TCE)
+"0402WGF5101TCE"
+1.1!U 2.1!U 

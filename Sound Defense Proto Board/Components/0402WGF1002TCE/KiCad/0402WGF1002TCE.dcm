@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0402WGF1002TCE
+D Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,4 @@
-23171321077772301
+23176529730228432
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87226,13 +87226,6 @@ Capacitor
 0
 2
 2
-SD-CAP1
-CAPC1005X55N
-GRM15_0.10 L=1.0mm W=0.5mm T=0.5mm
-Capacitor
-0
-2
-2
 SD-HEAD
 SAMTEC_TD-104-T-A
 SAMTEC_TD-104-T-A
@@ -87240,13 +87233,20 @@ Connector
 0
 8
 8
-SD-IND
-INDC2016X95N
-SRN2009T-R47M
-Inductor
+SD-JST3
+S2BPHSM4TBLFSN
+S2B-PH-SM4-TB(LF)(SN)-2
+Connector
 0
-2
-2
+4
+4
+SD-MCP
+SOT95P270X145-5N
+(OT) [SOT-23]
+Integrated Circuit
+0
+5
+5
 SD-PAM
 SOP50P490X110-10N
 MSOP-10
@@ -87254,9 +87254,30 @@ Integrated Circuit
 0
 10
 10
+SD-PIEZO
+SD-CPT-1404-85T
+
+
+0
+2
+2
 SD-RES
 RESC1005X40N
 RC0402
+Resistor
+0
+2
+2
+SD-RES-5_1K
+RESC1005X40N
+0402
+Resistor
+0
+2
+2
+SD-RES-10K
+RESC1005X40N
+0402-1
 Resistor
 0
 2

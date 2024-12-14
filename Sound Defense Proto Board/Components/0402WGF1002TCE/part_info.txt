@@ -1,0 +1,9 @@
+Manufacturer=UNI-ROYAL(Uniroyal Elec)
+PartNumber=0402WGF1002TCE
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2020-02-10 15:39:04
+Downloaded=2024-12-09 15:17:58
+3D=Y

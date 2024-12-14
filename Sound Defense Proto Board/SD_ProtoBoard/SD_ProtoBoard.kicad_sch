@@ -14,6 +14,995 @@
 		(comment 4 "Client: Mandy Howland")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at -1.2065 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+				(at -1.2065 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 4.572 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+				(at 3.81 -28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
+				(rectangle
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -8.89 -1.27)
+					(mid -6.985 -3.1667)
+					(end -5.08 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.27)
+					(end -6.35 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -5.08 6.35)
+					(mid -6.985 8.2467)
+					(end -8.89 6.35)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 3.683)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.302)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 6.858)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 4.318)
+					(end 3.175 5.588)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -17.78 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD_LIB:0402WGF1002TCE"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0402WGF1002TCE"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1005X40N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1002TCE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD_LIB:0402WGF5101TCE"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0402WGF5101TCE"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1005X40N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Resistor - Surface Mount 5.1KOhms +/-1% 1/16W 0402 RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0402WGF5101TCE"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF5101TCE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SD_LIB:150060VS75000"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -271,6 +1260,352 @@
 				)
 			)
 		)
+		(symbol "SD_LIB:CPT-1404-85T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CPT-1404-85T_0_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -1.27)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.27)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CPT-1404-85T_1_1"
+				(pin input line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD_LIB:MCP73831T-2ACI_OT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 5.334 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MCP73831T-2ACI_OT"
+				(at 5.334 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P270X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Li-Ion Charge Controller 4.2V SOT23-5"
+				(at 13.462 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MCP73831T-2ACI/OT"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "579-MCP73831T-2ACIOT"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "MCP73831T-2ACI/OT"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcp73831t-2aciot/microchip-technology?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MCP73831T-2ACI_OT_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SD_LIB:RC0402FR-07100RL"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -434,6 +1769,213 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD_LIB:S2B-PH-SM4-TB_LF__SN_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "S2B-PH-SM4-TB_LF__SN_"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "S2BPHSM4TBLFSN"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.6"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftEA9IU90i0xlg%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s2b-ph-sm4-tb-lf-sn/jst-manufacturing?region=europe"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-PH-SM4-TB_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -643,195 +2185,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Symbols:3025"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "3025"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "3025"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=740"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Coin Cell Battery Holders THM COIN CELL CLIP FOR (2) 2032"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "7.75"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Keystone Electronics"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "3025"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "534-3025"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3025?qs=F3SQOOfR3Vt%252BCgjaGDhpOQ%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "3025_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "+_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "+_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2285,456 +3638,6 @@
 				)
 			)
 		)
-		(symbol "Symbols:TD-104-T-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TD-104-T-A"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SAMTEC_TD-104-T-A"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN RECEPTACLE, 2.54MM, THT VERT, 8WAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "SAMTEC"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TD-104-T-A"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TD-104-T-A"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/td-104-t-a/samtec"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TD-104-T-A_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Symbols:WJ500V-5.08-2P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "WJ500V-5.08-2P"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "WJ500V5082P"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ500V-5-08-2P_C8465.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "P=5.08mm Screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "14.2"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Ningbo Kangnex"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "WJ500V-5.08-2P"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "WJ500V-5.08-2P_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2831,284 +3734,170 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
-		(at 76.2 120.65)
+		(at 62.23 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05de5275-dfa2-4dba-a610-fb61233e218c")
 	)
 	(junction
-		(at 238.76 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08ccf15d-e75c-4354-9706-8a5c6ffa6d75")
-	)
-	(junction
-		(at 49.53 105.41)
+		(at 35.56 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19bebf6d-f7de-4e88-a8a4-253d76bea035")
 	)
 	(junction
-		(at 69.85 118.11)
+		(at 55.88 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "239fcd0b-c515-43a2-b293-81db216d15cd")
 	)
 	(junction
-		(at 138.43 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2968bf9a-f187-46a3-82b1-a63b64bba826")
-	)
-	(junction
-		(at 190.5 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36f3afae-4aad-4816-9836-7f7a0a62742e")
-	)
-	(junction
-		(at 71.12 102.87)
+		(at 57.15 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cc94e0f-beca-4cfa-8d3f-13921164383b")
 	)
 	(junction
-		(at 181.61 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4600d315-a05e-4d68-82f5-2e8755a210e8")
-	)
-	(junction
-		(at 213.36 102.87)
+		(at 199.39 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5095bbbd-fc42-4f8a-b4ff-8b4c1177b8e6")
 	)
 	(junction
-		(at 90.17 118.11)
+		(at 76.2 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f85f6ae-f29b-4b85-8a6d-1e3522c0dfe3")
 	)
 	(junction
-		(at 189.23 102.87)
+		(at 124.46 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67f1d980-95f1-47fe-9af7-f5474153bc6c")
+		(uuid "63f132e5-1830-49fb-b69f-2f26dd80977f")
 	)
 	(junction
-		(at 118.11 86.36)
+		(at 104.14 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ded3b3f-0040-4694-9ee5-3270ff91e9fc")
 	)
 	(junction
-		(at 121.92 101.6)
+		(at 107.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76d80c27-be15-4a3b-8f37-0c136e30816a")
 	)
 	(junction
-		(at 133.35 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7863db0a-03fe-4ef5-8675-5638aa022b53")
-	)
-	(junction
-		(at 125.73 86.36)
+		(at 111.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7967cff7-4740-4f5d-9603-59f8b77070ae")
 	)
 	(junction
-		(at 195.58 102.87)
+		(at 181.61 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89867f75-27aa-4205-9e06-96fdee7aeca4")
 	)
 	(junction
-		(at 121.92 118.11)
+		(at 181.61 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd1c87c-8175-43c8-8a2a-deefc34c30cc")
+	)
+	(junction
+		(at 107.95 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91986e87-5e98-44e1-b09f-b13b9baa38ad")
 	)
 	(junction
-		(at 179.07 105.41)
+		(at 196.85 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4c4ee74-9cd1-453d-96e8-e58287f1c55f")
+		(uuid "a10f6c3e-eed0-435f-acbf-22a82e89a9aa")
 	)
 	(junction
-		(at 195.58 118.11)
+		(at 181.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccb18688-6e28-4fb3-84f0-efd3237013cb")
 	)
 	(junction
-		(at 104.14 86.36)
+		(at 90.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b564db-1710-4f8a-ad29-dc5ad09381b8")
 	)
 	(junction
-		(at 138.43 86.36)
+		(at 124.46 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da1f30aa-ecfd-4148-867d-a9e30dc2be50")
 	)
+	(junction
+		(at 237.49 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f370e958-4b32-49eb-a94d-991af6fa6a59")
+	)
 	(no_connect
-		(at 213.36 50.8)
+		(at 269.24 146.05)
+		(uuid "08ad6738-ea92-44bf-9ed1-75d637be62ed")
+	)
+	(no_connect
+		(at 199.39 35.56)
 		(uuid "39b04491-2387-4aa3-836a-02875fe7e657")
 	)
 	(no_connect
-		(at 210.82 50.8)
+		(at 165.1 90.17)
+		(uuid "3e99fdad-1fc6-4a5b-92db-fa3afe6ac537")
+	)
+	(no_connect
+		(at 275.59 72.39)
+		(uuid "4fa97858-6788-4b4f-9cb4-a46257921908")
+	)
+	(no_connect
+		(at 124.46 90.17)
+		(uuid "66a9ce6c-2f13-4e45-84fe-58d38bfe9cae")
+	)
+	(no_connect
+		(at 275.59 69.85)
+		(uuid "787f0424-a252-4031-bf0a-cceb3dcd6a07")
+	)
+	(no_connect
+		(at 124.46 95.25)
+		(uuid "836f78f0-7fe1-4b5c-a51c-288796830925")
+	)
+	(no_connect
+		(at 196.85 35.56)
 		(uuid "e110b7a5-c6f1-412c-854c-0b4f9886f438")
 	)
 	(wire
 		(pts
-			(xy 104.14 130.81) (xy 102.87 130.81)
+			(xy 119.38 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00ba2c83-008c-44ed-919e-4a41ff3adbdb")
+		(uuid "03a40a6f-8e47-4239-be27-cfd3e4195791")
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 102.87)
+			(xy 195.58 120.65) (xy 195.58 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09060eb4-59fe-4f2e-a834-b70b368c6935")
+		(uuid "070dbdf7-9f71-4b7c-b76a-f6bc233d11b8")
 	)
 	(wire
 		(pts
-			(xy 71.12 102.87) (xy 76.2 102.87)
+			(xy 57.15 87.63) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 138.43 86.36)
+			(xy 111.76 71.12) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3128,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 102.87) (xy 181.61 102.87)
+			(xy 165.1 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 104.14 130.81)
+			(xy 90.17 95.25) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3148,17 +3937,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 171.45 72.39)
+			(xy 124.46 81.28) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13446a5f-b67a-457f-86e0-223018945a4f")
+		(uuid "1068e10e-0fe1-4385-8be7-34e7e2b27fc0")
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 118.11 86.36)
+			(xy 90.17 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3168,57 +3957,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 186.69 134.62)
+			(xy 224.79 120.65) (xy 237.49 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15cfbeb4-a62f-4f27-ac8c-21b39ab0295c")
+		(uuid "1526dd30-2d68-4c55-aa49-bb0727b0412b")
 	)
 	(wire
 		(pts
-			(xy 234.95 105.41) (xy 234.95 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162adbd4-2de7-484c-bacb-2fc895339707")
-	)
-	(wire
-		(pts
-			(xy 238.76 105.41) (xy 234.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178b81ca-ba8e-469e-b7c9-bef7a45dcd35")
-	)
-	(wire
-		(pts
-			(xy 190.5 137.16) (xy 190.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1912b875-e059-4a4d-99ee-5bf93cb5f5a7")
-	)
-	(wire
-		(pts
-			(xy 106.68 133.35) (xy 106.68 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19308d14-44ba-44db-b602-d57f49f20d09")
-	)
-	(wire
-		(pts
-			(xy 76.2 120.65) (xy 110.49 120.65)
+			(xy 62.23 105.41) (xy 96.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3228,37 +3977,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 133.35) (xy 106.68 133.35)
+			(xy 191.77 125.73) (xy 196.85 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20e76150-0238-4c0b-b4aa-21638cd8c2c9")
+		(uuid "238af6e1-e0d0-4b7b-9e8a-b9378394211a")
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 190.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2498196b-0b55-455d-88e8-a079fd83eb41")
-	)
-	(wire
-		(pts
-			(xy 148.59 137.16) (xy 129.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256b9e53-6285-40ff-a638-38e48906969a")
-	)
-	(wire
-		(pts
-			(xy 238.76 35.56) (xy 238.76 95.25)
+			(xy 224.79 20.32) (xy 224.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3268,17 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 132.08) (xy 135.89 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2350f3-fb66-4c88-94c1-b8eb1f0c1118")
-	)
-	(wire
-		(pts
-			(xy 138.43 100.33) (xy 138.43 102.87)
+			(xy 124.46 71.12) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3288,17 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 105.41) (xy 135.89 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7684c2-49d1-4629-a415-347e74ba34ef")
-	)
-	(wire
-		(pts
-			(xy 106.68 107.95) (xy 104.14 107.95)
+			(xy 95.25 92.71) (xy 90.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3308,27 +4017,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 129.54) (xy 137.16 129.54)
+			(xy 196.85 120.65) (xy 195.58 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ffbd5d6-8e53-4c86-a5d9-35d2f1d0aad4")
+		(uuid "38a028d1-1e09-45c6-9253-27f2ca31d834")
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 137.16 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ab047c-3cc1-4f40-a6df-c242e77f1c57")
-	)
-	(wire
-		(pts
-			(xy 190.5 110.49) (xy 179.07 110.49)
+			(xy 165.1 95.25) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3338,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 195.58 118.11)
+			(xy 181.61 87.63) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +4047,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 125.73 101.6)
+			(xy 245.11 135.89) (xy 246.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc3d2e2-8f89-4e1a-a1d2-bc5fc8cdd39a")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3358,17 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 129.54) (xy 181.61 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "416ffc36-7461-448c-84b6-c3ad2d7cc434")
-	)
-	(wire
-		(pts
-			(xy 195.58 102.87) (xy 213.36 102.87)
+			(xy 181.61 87.63) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3378,17 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 184.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a3a668-2a94-4862-bc27-fbab784e60e2")
-	)
-	(wire
-		(pts
-			(xy 110.49 105.41) (xy 104.14 105.41)
+			(xy 96.52 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 76.2 82.55)
+			(xy 62.23 85.09) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3408,17 +4097,27 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 129.54) (xy 181.61 102.87)
+			(xy 95.25 124.46) (xy 90.17 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bf224b3-d018-493b-ad06-0c66b0437b3e")
+		(uuid "5bc1e8e2-7c43-483a-9ea4-34c8f452d67c")
 	)
 	(wire
 		(pts
-			(xy 213.36 81.28) (xy 213.36 102.87)
+			(xy 224.79 85.09) (xy 237.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6483b9-4864-493f-bb25-a7b82be2ab3f")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 76.2 105.41)
+			(xy 48.26 90.17) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 115.57) (xy 90.17 118.11)
+			(xy 76.2 100.33) (xy 76.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3448,17 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 138.43 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661da165-024f-4209-be1e-e48f5e87f0a2")
-	)
-	(wire
-		(pts
-			(xy 76.2 120.65) (xy 76.2 110.49)
+			(xy 62.23 105.41) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3468,37 +4157,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 107.95) (xy 179.07 107.95)
+			(xy 124.46 81.28) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66bb4876-1479-4e36-998a-5870ab9128f2")
+		(uuid "68b5f752-dfcb-4480-a36c-beb6e7c9ea3c")
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 189.23 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e47265-6010-444c-a36a-c3150d277e41")
-	)
-	(wire
-		(pts
-			(xy 129.54 137.16) (xy 129.54 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6858ba47-cc75-47cc-aa55-c194034614c3")
-	)
-	(wire
-		(pts
-			(xy 49.53 105.41) (xy 49.53 107.95)
+			(xy 35.56 90.17) (xy 35.56 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3508,17 +4177,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 137.16) (xy 190.5 137.16)
+			(xy 245.11 139.7) (xy 245.11 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c97e0cc-611c-42f7-bd67-2cac595507f1")
+		(uuid "6dd011a3-bfdb-449a-b0d3-ee858356b348")
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 100.33)
+			(xy 90.17 71.12) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3528,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 118.11) (xy 69.85 118.11)
+			(xy 41.91 102.87) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 118.11) (xy 195.58 118.11)
+			(xy 107.95 102.87) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3548,17 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 138.43 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757c77ad-c229-49eb-b5de-133da289cd3b")
-	)
-	(wire
-		(pts
-			(xy 29.21 105.41) (xy 29.21 72.39)
+			(xy 15.24 90.17) (xy 15.24 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3568,17 +4227,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 72.39) (xy 154.94 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a507da1-6bf5-4a2d-ad30-4cd8911717d1")
-	)
-	(wire
-		(pts
-			(xy 121.92 101.6) (xy 121.92 118.11)
+			(xy 107.95 86.36) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3588,17 +4237,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 86.36) (xy 138.43 100.33)
+			(xy 237.49 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb6bf05-5f33-4bd9-8ae7-4f1d8ff2c53b")
+		(uuid "7c42e94f-62e7-4376-9b90-2e9a213cf94a")
 	)
 	(wire
 		(pts
-			(xy 55.88 133.35) (xy 55.88 118.11)
+			(xy 41.91 118.11) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3608,17 +4257,27 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 134.62) (xy 132.08 134.62)
+			(xy 246.38 133.35) (xy 233.68 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bab53a1-84cd-4591-82a1-151d341c064e")
+		(uuid "8baa441c-1023-4071-8cc1-8a62563ba960")
 	)
 	(wire
 		(pts
-			(xy 76.2 82.55) (xy 71.12 82.55)
+			(xy 196.85 125.73) (xy 196.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca805a6-b584-43ae-b557-8936a9bd9b87")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3628,27 +4287,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 238.76 100.33)
+			(xy 181.61 123.19) (xy 196.85 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4d43079-6711-451f-9ca7-cfafc3acf9ec")
+		(uuid "9e168dbf-97c5-4f3c-ba62-f2cb7015b1cf")
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 133.35 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52c38e6-8852-4c4c-b2af-2557724045c3")
-	)
-	(wire
-		(pts
-			(xy 125.73 99.06) (xy 125.73 101.6)
+			(xy 111.76 83.82) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 49.53 107.95)
+			(xy 62.23 92.71) (xy 35.56 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3668,47 +4317,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 138.43 110.49)
+			(xy 181.61 123.19) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adfb78af-537b-46c2-bef8-403750739863")
+		(uuid "ad734afd-5ef5-459d-8606-b488470141e9")
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 107.95)
+			(xy 148.59 116.84) (xy 160.02 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae490552-2b5e-4cd3-a44c-952a81060d7b")
+		(uuid "b3264b14-0dae-4254-adb3-de9b347b9fa3")
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 179.07 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02b6de9-be8c-4296-8237-06d2083e90f1")
-	)
-	(wire
-		(pts
-			(xy 179.07 105.41) (xy 184.15 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2bdad3e-629a-41dd-a266-4b5f2ebdf0ce")
-	)
-	(wire
-		(pts
-			(xy 110.49 120.65) (xy 110.49 105.41)
+			(xy 96.52 105.41) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 133.35 102.87)
+			(xy 90.17 87.63) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +4357,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 35.56) (xy 138.43 86.36)
+			(xy 124.46 20.32) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +4367,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 107.95)
+			(xy 160.02 116.84) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c5fbdc-bf16-457e-b143-b9de2dc34caf")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 69.85 118.11)
+			(xy 55.88 87.63) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 118.11) (xy 90.17 118.11)
+			(xy 55.88 102.87) (xy 76.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3768,17 +4407,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 238.76 102.87)
+			(xy 233.68 133.35) (xy 233.68 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cebea1bb-576d-4ec6-8da9-fd2d42c701a5")
+		(uuid "d13de517-102f-46c2-be94-3c9bba17eb5d")
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 86.36)
+			(xy 90.17 57.15) (xy 90.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 121.92 101.6)
+			(xy 104.14 86.36) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 118.11) (xy 195.58 147.32)
+			(xy 181.61 102.87) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +4447,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 81.28) (xy 210.82 110.49)
+			(xy 196.85 66.04) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3818,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 121.92 118.11)
+			(xy 76.2 102.87) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +4467,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 118.11 101.6)
+			(xy 196.85 148.59) (xy 196.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e130c1c3-45c0-48ea-b4fd-7a08a333c3c8")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3838,17 +4487,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 132.08) (xy 184.15 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4548018-7f7d-4d66-9f37-4d43bbc0554f")
-	)
-	(wire
-		(pts
-			(xy 29.21 72.39) (xy 104.14 72.39)
+			(xy 15.24 57.15) (xy 90.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3858,7 +4497,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 133.35) (xy 76.2 133.35)
+			(xy 54.61 118.11) (xy 62.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3868,27 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 195.58 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64a54d2-9768-4731-8c45-25c39fde3234")
-	)
-	(wire
-		(pts
-			(xy 186.69 134.62) (xy 186.69 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f83b2e-ab75-41f1-b265-c6fc2a5cf047")
-	)
-	(wire
-		(pts
-			(xy 76.2 133.35) (xy 76.2 120.65)
+			(xy 62.23 118.11) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3898,17 +4517,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 95.25) (xy 238.76 95.25)
+			(xy 95.25 92.71) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eda51f7f-f714-4f93-9b12-c4c29fd7c3de")
+		(uuid "edf7e597-0c18-4400-9ca0-78ae8f3855e8")
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 125.73 86.36)
+			(xy 104.14 71.12) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 102.87) (xy 69.85 102.87)
+			(xy 57.15 87.63) (xy 55.88 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3928,17 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 132.08) (xy 135.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2717725-cc6e-4da7-b86a-545449ab78db")
-	)
-	(wire
-		(pts
-			(xy 238.76 35.56) (xy 138.43 35.56)
+			(xy 224.79 20.32) (xy 124.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 71.12 102.87)
+			(xy 57.15 80.01) (xy 57.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3958,13 +4567,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 189.23 102.87)
+			(xy 199.39 87.63) (xy 215.9 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffba50d5-d7d8-4301-a7db-908e53f88806")
+		(uuid "ffd5e881-71e4-4394-9a0d-9a7162ee6644")
 	)
 	(polyline
 		(pts
@@ -4323,44 +4932,111 @@
 		)
 		(uuid d713ef40-93e7-47d0-8ee2-1516ecba2b8a)
 	)
+	(label "VDD"
+		(at 148.59 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10a583fb-ba4f-45bc-bcfc-ca0707294d83")
+	)
+	(label "VBAT"
+		(at 237.49 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19dcd424-b287-4e4a-9708-728a4d21b65a")
+	)
+	(label "VBAT"
+		(at 252.73 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d71aada-6643-4136-acca-e4449e4edab6")
+	)
+	(label "VBAT"
+		(at 191.77 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eda598f-811e-41a0-81cf-cf351ad0f37a")
+	)
+	(label "UPDI"
+		(at 165.1 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad18dc81-e68a-40ab-aa9a-24696f2c5255")
+	)
+	(label "UPDI"
+		(at 148.59 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad1f9fb7-98b6-4adf-84ef-82be2854a98d")
+	)
+	(label "VDD"
+		(at 129.54 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8fe064c-19dd-4da9-9a38-4ccd41764f0d")
+	)
 	(symbol
-		(lib_id "Symbols:TD-104-T-A")
-		(at 148.59 129.54 0)
+		(lib_id "SD_LIB:S2B-PH-SM4-TB_LF__SN_")
+		(at 252.73 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0247f85a-5a84-40f0-8580-7fa369c5605a")
-		(property "Reference" "J1"
-			(at 158.75 121.92 0)
+		(uuid "00ae08ae-68a7-479e-9c63-434afe38c851")
+		(property "Reference" "J4"
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TD-104-T-A"
-			(at 158.75 124.46 0)
+		(property "Value" "S2B-PH-SM4-TB_LF__SN_"
+			(at 264.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SD-HEAD:SAMTEC_TD-104-T-A"
-			(at 165.1 224.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 324.46 0)
+		(property "Footprint" "SD-JST3:S2BPHSM4TBLFSN"
+			(at 271.78 164.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,17 +5045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN RECEPTACLE, 2.54MM, THT VERT, 8WAY"
-			(at 148.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 165.1 524.46 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 271.78 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,8 +5055,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 165.1 624.46 0)
+		(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.6"
+			(at 271.78 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,8 +5074,165 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TD-104-T-A"
-			(at 165.1 724.46 0)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 271.78 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 271.78 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 271.78 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftEA9IU90i0xlg%3D%3D"
+			(at 271.78 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 271.78 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s2b-ph-sm4-tb-lf-sn/jst-manufacturing?region=europe"
+			(at 271.78 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08a75a55-cec1-4f4f-a9ee-e6e37778b61b")
+		)
+		(pin "2"
+			(uuid "875ae6a4-6f6c-4674-a97a-e403dfea1558")
+		)
+		(pin "MP2"
+			(uuid "4d5a7276-80f5-4c37-a419-a9cccecd0e88")
+		)
+		(pin "MP1"
+			(uuid "9a3d0d57-d4b1-4e6a-8f76-2e4289faf3ad")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SD_LIB:0402WGF1002TCE")
+		(at 224.79 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01dabac4-d185-40c5-9982-1d9b97ecaeea")
+		(property "Reference" "R4"
+			(at 219.456 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 214.63 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SD-RES-10K:RESC1005X40N"
+			(at 128.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 28.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at -171.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at -271.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at -371.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +5242,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 165.1 824.46 0)
+			(at -471.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,165 +5252,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 165.1 924.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TD-104-T-A"
-			(at 165.1 1024.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/td-104-t-a/samtec"
-			(at 165.1 1124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "9a327ef2-a2d1-4675-a089-67da085b06bf")
-		)
-		(pin "5"
-			(uuid "c44541f3-13ac-4c99-b1f4-975d4402db90")
-		)
-		(pin "4"
-			(uuid "09ade19a-6efb-4ecf-a774-fa40c114f2d9")
-		)
-		(pin "7"
-			(uuid "87972c09-f23f-4b13-8b41-8f2808b62be1")
-		)
-		(pin "3"
-			(uuid "b9917551-e40b-414e-9f8d-60e5ce40d036")
-		)
-		(pin "2"
-			(uuid "30531c78-8fbc-4e9b-9c14-d55bddcde851")
-		)
-		(pin "8"
-			(uuid "56651985-62b3-4f91-bd2c-8b59b5b8d97a")
-		)
-		(pin "1"
-			(uuid "a11df5d3-06b3-4fac-a910-3f6e8678f150")
-		)
-		(instances
-			(project "SD_ProtoBoard"
-				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:0402B104K160CT")
-		(at 49.53 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "190a3f0f-03c8-4f9b-a0cd-d68d27682a2d")
-		(property "Reference" "C1"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF 0402B104K160CT"
-			(at 55.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SD-01-CAP:CAPC1005X55N"
-			(at 58.42 201.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/0402B104K160CT.pdf"
-			(at 58.42 301.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10% 16V"
-			(at 49.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 58.42 501.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 58.42 601.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402B104K160CT"
-			(at 58.42 701.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "791-0402B104K160CT"
-			(at 58.42 801.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/0402B104K160CT?qs=fIkAfuXiAQJ1PS4dYXnTSQ%3D%3D"
-			(at 58.42 901.6 0)
+			(at -571.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +5262,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 58.42 1001.6 0)
+			(at -671.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +5272,213 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 58.42 1101.6 0)
+			(at -771.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6d30e07-ab17-4cf4-9150-3e45110347ef")
+		)
+		(pin "2"
+			(uuid "677be5cc-a637-4aab-9ddd-ef026a7e6280")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e4f4d46-a7c8-41df-bd05-4e32ed9cf8b1")
+		(property "Reference" "#PWR09"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa804137-be0d-4931-8410-71fcd8caa49f")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:0402B104K160CT")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "190a3f0f-03c8-4f9b-a0cd-d68d27682a2d")
+		(property "Reference" "C1"
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF 0402B104K160CT"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-01-CAP:CAPC1005X55N"
+			(at 44.45 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/0402B104K160CT.pdf"
+			(at 44.45 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10% 16V"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 44.45 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Walsin Technology Corporation"
+			(at 44.45 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402B104K160CT"
+			(at 44.45 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-0402B104K160CT"
+			(at 44.45 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/0402B104K160CT?qs=fIkAfuXiAQJ1PS4dYXnTSQ%3D%3D"
+			(at 44.45 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 44.45 986.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 44.45 1086.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,17 +5503,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 238.76 95.25 270)
+		(lib_id "power:GND")
+		(at 224.79 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21761007-f100-4f3d-a4ff-123fdaf68f32")
-		(property "Reference" "#PWR02"
-			(at 234.95 95.25 0)
+		(uuid "1b6bf32a-8855-44a3-967c-7599dd7810ac")
+		(property "Reference" "#PWR06"
+			(at 224.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,17 +5521,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 242.57 95.2499 90)
+		(property "Value" "GND"
+			(at 224.79 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 95.25 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 95.25 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,8 +5547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 238.76 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,12 +5557,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "98e24d85-8129-4111-bd94-55ca86fa950e")
+			(uuid "c3ddea8b-ea7d-4e6f-a035-8232beb42a2f")
 		)
 		(instances
 			(project "SD_ProtoBoard"
 				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4690,7 +5570,8 @@
 	)
 	(symbol
 		(lib_id "SD_LIB:RC0402FR-07100RL")
-		(at 154.94 72.39 0)
+		(at 213.36 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4699,15 +5580,15 @@
 		(fields_autoplaced yes)
 		(uuid "2eda3935-5b88-44e5-829a-f7267b21916e")
 		(property "Reference" "R2"
-			(at 163.83 66.04 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RC0402FR-07100RL"
-			(at 163.83 68.58 0)
+		(property "Value" "100 Ohms"
+			(at 204.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +5596,7 @@
 			)
 		)
 		(property "Footprint" "SD-RES:RESC1005X40N"
-			(at 168.91 168.58 0)
+			(at 199.39 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +5606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 168.91 268.58 0)
+			(at 199.39 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +5616,7 @@
 			)
 		)
 		(property "Description" "ic"
-			(at 154.94 72.39 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +5625,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 168.91 468.58 0)
+			(at 199.39 499.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +5635,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 168.91 568.58 0)
+			(at 199.39 599.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +5645,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
-			(at 168.91 668.58 0)
+			(at 199.39 699.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +5655,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0402FR-07100RL"
-			(at 168.91 768.58 0)
+			(at 199.39 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +5665,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
-			(at 168.91 868.58 0)
+			(at 199.39 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +5675,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0402FR-07100RL"
-			(at 168.91 968.58 0)
+			(at 199.39 999.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5685,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo?region=nac"
-			(at 168.91 1068.58 0)
+			(at 199.39 1099.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,9 +5710,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39394919-320d-4078-8ede-054139dfd1d4")
+		(property "Reference" "#PWR04"
+			(at 245.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de92cf5b-0ba7-41af-b067-debf0a18c8bc")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SD_LIB:150060VS75000")
-		(at 186.69 72.39 0)
-		(mirror y)
+		(at 213.36 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4839,7 +5785,7 @@
 		(dnp no)
 		(uuid "3ba406dc-2c52-4064-87f3-b379f37a28f6")
 		(property "Reference" "LED1"
-			(at 179.07 62.23 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5793,7 @@
 			)
 		)
 		(property "Value" "150060VS75000"
-			(at 179.07 64.77 0)
+			(at 220.98 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5801,7 @@
 			)
 		)
 		(property "Footprint" "LED:LEDC1608X80N"
-			(at 173.99 166.04 0)
+			(at 226.06 196.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
-			(at 173.99 266.04 0)
+			(at 226.06 296.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +5821,7 @@
 			)
 		)
 		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
-			(at 186.69 72.39 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +5830,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 173.99 466.04 0)
+			(at 226.06 496.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +5840,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 173.99 566.04 0)
+			(at 226.06 596.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5850,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060VS75000"
-			(at 173.99 666.04 0)
+			(at 226.06 696.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +5860,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150060VS75000"
-			(at 173.99 766.04 0)
+			(at 226.06 796.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5870,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
-			(at 173.99 866.04 0)
+			(at 226.06 896.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5880,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 173.99 966.04 0)
+			(at 226.06 996.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5890,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 173.99 1066.04 0)
+			(at 226.06 1096.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,8 +5915,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0bde8a-9144-4ae3-9f67-6bd2ac98255d")
+		(property "Reference" "#PWR05"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6d5d565-d582-444f-a63c-3b54581fb2e0")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:PAM8906M1018-13")
-		(at 76.2 100.33 0)
+		(at 62.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4978,7 +5990,7 @@
 		(dnp no)
 		(uuid "43d3e8a9-f42a-4864-a744-604afcd04717")
 		(property "Reference" "IC2"
-			(at 89.408 92.964 0)
+			(at 75.438 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5998,7 @@
 			)
 		)
 		(property "Value" "PAM8906M1018-13"
-			(at 90.17 95.25 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +6006,7 @@
 			)
 		)
 		(property "Footprint" "SD-PAM:SOP50P490X110-10N"
-			(at 100.33 195.25 0)
+			(at 86.36 180.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +6016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8906.pdf"
-			(at 100.33 295.25 0)
+			(at 86.36 280.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +6026,7 @@
 			)
 		)
 		(property "Description" "Audio Amplifiers Audio Low Volt MSOP-10 T&R 2.5K"
-			(at 76.2 100.33 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +6035,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 100.33 495.25 0)
+			(at 86.36 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +6045,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 100.33 595.25 0)
+			(at 86.36 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +6055,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PAM8906M1018-13"
-			(at 100.33 695.25 0)
+			(at 86.36 680.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +6065,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-PAM8906M1018-13"
-			(at 100.33 795.25 0)
+			(at 86.36 780.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +6075,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8906M1018-13?qs=amGC7iS6iy89BpBhX%252BV0cg%3D%3D"
-			(at 100.33 895.25 0)
+			(at 86.36 880.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +6085,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 100.33 995.25 0)
+			(at 86.36 980.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +6095,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 100.33 1095.25 0)
+			(at 86.36 1080.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,148 +6147,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:WJ500V-5.08-2P")
-		(at 102.87 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45b3d88a-399d-44bb-acc7-dca099cbddd1")
-		(property "Reference" "J2"
-			(at 92.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WJ500V-5.08-2P"
-			(at 92.71 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SD-SCR-TERM:WJ500V5082P"
-			(at 86.36 38.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ500V-5-08-2P_C8465.pdf"
-			(at 86.36 -61.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "P=5.08mm Screw terminal"
-			(at 102.87 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "14.2"
-			(at 86.36 -261.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Ningbo Kangnex"
-			(at 86.36 -361.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "WJ500V-5.08-2P"
-			(at 86.36 -461.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 86.36 -561.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 86.36 -661.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 -761.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 -861.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c525e463-1cae-4659-82cd-c12899744c4f")
-		)
-		(pin "2"
-			(uuid "1e9c0c46-42f4-418b-80dc-33a57cdb2251")
-		)
-		(instances
-			(project "SD_ProtoBoard"
-				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Symbols:GRM155R61E105KA12D")
-		(at 55.88 133.35 0)
+		(at 41.91 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5284,7 +6156,7 @@
 		(dnp no)
 		(uuid "4e696476-0ef5-4cea-90a6-ccfbdb56b69c")
 		(property "Reference" "C2"
-			(at 61.722 140.208 0)
+			(at 47.752 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +6164,7 @@
 			)
 		)
 		(property "Value" "1uF GRM155R61E105KA12D"
-			(at 62.992 137.414 0)
+			(at 49.022 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +6172,7 @@
 			)
 		)
 		(property "Footprint" "SD-CAP1:CAPC1005X55N"
-			(at 64.77 229.54 0)
+			(at 50.8 214.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +6182,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 64.77 329.54 0)
+			(at 50.8 314.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +6192,7 @@
 			)
 		)
 		(property "Description" "MURATA - GRM155R61E105KA12D - CAP, MLCC, X5R, 1UF, 25V, 0402"
-			(at 55.88 133.35 0)
+			(at 41.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +6201,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 64.77 529.54 0)
+			(at 50.8 514.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +6211,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 64.77 629.54 0)
+			(at 50.8 614.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +6221,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61E105KA12D"
-			(at 64.77 729.54 0)
+			(at 50.8 714.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +6231,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R61E105KA2D"
-			(at 64.77 829.54 0)
+			(at 50.8 814.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +6241,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R61E105KA12D?qs=hiffU4J9V6bE4a81t2Mv5A%3D%3D"
-			(at 64.77 929.54 0)
+			(at 50.8 914.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +6251,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R61E105KA12D"
-			(at 64.77 1029.54 0)
+			(at 50.8 1014.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +6261,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r61e105ka12d/murata-manufacturing?region=nac"
-			(at 64.77 1129.54 0)
+			(at 50.8 1114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,8 +6286,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 237.49 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5378f4dc-70ad-4959-b0b8-843ea6eac141")
+		(property "Reference" "#PWR07"
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c10385ab-e392-4e4b-8284-b071a9d060da")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:GRM155R61E105KA12D")
-		(at 71.12 82.55 270)
+		(at 57.15 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5423,7 +6361,7 @@
 		(dnp no)
 		(uuid "56728352-6821-44be-8bf8-1bf2012ebb66")
 		(property "Reference" "C5"
-			(at 54.864 86.36 90)
+			(at 40.894 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +6370,7 @@
 			)
 		)
 		(property "Value" "1uF GRM155R61E105KA12D"
-			(at 40.894 88.646 90)
+			(at 26.924 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +6379,7 @@
 			)
 		)
 		(property "Footprint" "SD-CAP1:CAPC1005X55N"
-			(at -25.07 91.44 0)
+			(at -39.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +6389,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -125.07 91.44 0)
+			(at -139.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +6399,7 @@
 			)
 		)
 		(property "Description" "MURATA - GRM155R61E105KA12D - CAP, MLCC, X5R, 1UF, 25V, 0402"
-			(at 71.12 82.55 0)
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +6408,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at -325.07 91.44 0)
+			(at -339.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +6418,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -425.07 91.44 0)
+			(at -439.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +6428,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61E105KA12D"
-			(at -525.07 91.44 0)
+			(at -539.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +6438,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R61E105KA2D"
-			(at -625.07 91.44 0)
+			(at -639.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +6448,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R61E105KA12D?qs=hiffU4J9V6bE4a81t2Mv5A%3D%3D"
-			(at -725.07 91.44 0)
+			(at -739.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6458,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R61E105KA12D"
-			(at -825.07 91.44 0)
+			(at -839.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +6468,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r61e105ka12d/murata-manufacturing?region=nac"
-			(at -925.07 91.44 0)
+			(at -939.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,45 +6493,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:3025")
-		(at 238.76 100.33 0)
+		(lib_id "SD_LIB:MCP73831T-2ACI_OT")
+		(at 196.85 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61a7674e-220c-4304-968b-5072b0dc69c6")
-		(property "Reference" "U1"
-			(at 257.81 101.5999 0)
+		(uuid "5e1e95fb-ea90-43c8-b6b3-5bdb0a383138")
+		(property "Reference" "IC3"
+			(at 210.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "3025 3v Battery Holder"
-			(at 257.81 104.1399 0)
+		(property "Value" "MCP73831T-2ACI_OT"
+			(at 210.82 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SD-BAT-HOL:3025"
-			(at 257.81 195.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=740"
-			(at 257.81 295.25 0)
+		(property "Footprint" "SD-MCP:SOT95P270X145-5N"
+			(at 220.98 215.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,17 +6528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Coin Cell Battery Holders THM COIN CELL CLIP FOR (2) 2032"
-			(at 238.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.75"
-			(at 257.81 495.25 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+			(at 220.98 315.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,132 +6538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 257.81 595.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3025"
-			(at 257.81 695.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3025"
-			(at 257.81 795.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3025?qs=F3SQOOfR3Vt%252BCgjaGDhpOQ%3D%3D"
-			(at 257.81 895.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 257.81 995.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 257.81 1095.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ce69cc0-7f52-4d63-96d2-10eeffc99858")
-		)
-		(pin "2"
-			(uuid "a740b9c5-815b-499f-91de-4093ffa0928b")
-		)
-		(pin "3"
-			(uuid "2a36849b-95d0-45bd-9e93-b96f9e927358")
-		)
-		(instances
-			(project "SD_ProtoBoard"
-				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:ATTINY402-SSNR")
-		(at 138.43 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69a7ebce-6436-4758-a82d-77a60dafa23d")
-		(property "Reference" "IC1"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ATTINY402-SSNR"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SD-ATTINY:SOIC127P600X175-8N"
-			(at 175.26 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/"
-			(at 175.26 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R"
-			(at 138.43 102.87 0)
+		(property "Description" "Li-Ion Charge Controller 4.2V SOT23-5"
+			(at 210.312 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,8 +6547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.75"
-			(at 175.26 497.79 0)
+		(property "Height" "1.45"
+			(at 220.98 515.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +6558,156 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 175.26 597.79 0)
+			(at 220.98 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP73831T-2ACI/OT"
+			(at 220.98 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP73831T-2ACIOT"
+			(at 220.98 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D"
+			(at 220.98 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MCP73831T-2ACI/OT"
+			(at 220.98 1015.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcp73831t-2aciot/microchip-technology?region=nac"
+			(at 220.98 1115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1eba3c93-b8a9-4ba6-aefb-39edf254ef02")
+		)
+		(pin "4"
+			(uuid "3d319e68-6d90-426a-a68d-68b43a90d0ed")
+		)
+		(pin "3"
+			(uuid "38979fbb-963f-4585-95b1-720b2ea9a636")
+		)
+		(pin "2"
+			(uuid "ae7a4cd1-e45f-44a9-ae69-bb0b56068879")
+		)
+		(pin "1"
+			(uuid "d8677bbf-387b-4ea3-9268-2d67d3ee9d95")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ATTINY402-SSNR")
+		(at 124.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a7ebce-6436-4758-a82d-77a60dafa23d")
+		(property "Reference" "IC1"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATTINY402-SSNR"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-ATTINY:SOIC127P600X175-8N"
+			(at 161.29 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/"
+			(at 161.29 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 161.29 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 161.29 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +6717,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ATTINY402-SSNR"
-			(at 175.26 697.79 0)
+			(at 161.29 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +6727,7 @@
 			)
 		)
 		(property "Mouser Part Number" "579-ATTINY402-SSNR"
-			(at 175.26 797.79 0)
+			(at 161.29 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +6737,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY402-SSNR?qs=y6ZabgHbY%252ByACmf8rx9w5A%3D%3D"
-			(at 175.26 897.79 0)
+			(at 161.29 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +6747,7 @@
 			)
 		)
 		(property "Arrow Part Number" "ATTINY402-SSNR"
-			(at 175.26 997.79 0)
+			(at 161.29 982.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +6757,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny402-ssnr/microchip-technology?region=nac"
-			(at 175.26 1097.79 0)
+			(at 161.29 1082.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,8 +6800,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e4b5342-374f-4f64-84a5-2e6939e87352")
+		(property "Reference" "#PWR010"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11a0aabb-676d-4af6-aacb-a176dfed5176")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:436331045822")
-		(at 213.36 50.8 270)
+		(at 199.39 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5868,7 +6876,7 @@
 		(fields_autoplaced yes)
 		(uuid "78941e38-1431-497f-ad0c-8ae023d6b627")
 		(property "Reference" "S1"
-			(at 220.98 66.04 0)
+			(at 207.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +6884,7 @@
 			)
 		)
 		(property "Value" "436331045822"
-			(at 218.44 66.04 0)
+			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +6892,7 @@
 			)
 		)
 		(property "Footprint" "SD-SWI:436331045822"
-			(at 118.44 77.47 0)
+			(at 104.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436331045822.pdf"
-			(at 18.44 77.47 0)
+			(at 4.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6912,7 @@
 			)
 		)
 		(property "Description" "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount"
-			(at 213.36 50.8 0)
+			(at 199.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6921,7 @@
 			)
 		)
 		(property "Height" "1.65"
-			(at -181.56 77.47 0)
+			(at -195.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6931,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -281.56 77.47 0)
+			(at -295.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +6941,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "436331045822"
-			(at -381.56 77.47 0)
+			(at -395.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6951,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-436331045822"
-			(at -481.56 77.47 0)
+			(at -495.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6961,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D"
-			(at -581.56 77.47 0)
+			(at -595.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +6971,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -681.56 77.47 0)
+			(at -695.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6981,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -781.56 77.47 0)
+			(at -795.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,7 +7013,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 147.32 0)
+		(at 181.61 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6014,7 +7022,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df6593b-5842-441d-b771-2a80e96e1920")
 		(property "Reference" "#PWR01"
-			(at 195.58 153.67 0)
+			(at 181.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +7031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 152.4 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +7039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 147.32 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +7048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 147.32 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +7057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 147.32 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,15 +7079,15 @@
 	)
 	(symbol
 		(lib_id "Symbols:GRM188R61E106MA73D")
-		(at 125.73 86.36 270)
+		(at 237.49 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9b4a11c-24f1-4af4-a3e5-2ada3d31900f")
-		(property "Reference" "C3"
-			(at 133.35 92.71 0)
+		(uuid "7f6ac380-a7ae-46e4-b388-a2505251895e")
+		(property "Reference" "C6"
+			(at 245.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +7095,7 @@
 			)
 		)
 		(property "Value" "10uF GRM188R61E106MA73D"
-			(at 130.81 92.71 0)
+			(at 242.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +7103,7 @@
 			)
 		)
 		(property "Footprint" "SD-CAP-10:CAPC1608X90N"
-			(at 29.54 95.25 0)
+			(at 141.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +7113,7 @@
 			)
 		)
 		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM188R61E106MA73%23.html"
-			(at -70.46 95.25 0)
+			(at 41.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +7123,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 25volts X5R 20%"
-			(at 125.73 86.36 0)
+			(at 237.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +7132,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -270.46 95.25 0)
+			(at -158.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +7142,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -370.46 95.25 0)
+			(at -258.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +7152,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188R61E106MA73D"
-			(at -470.46 95.25 0)
+			(at -358.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +7162,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
-			(at -570.46 95.25 0)
+			(at -458.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +7172,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
-			(at -670.46 95.25 0)
+			(at -558.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +7182,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM188R61E106MA73D"
-			(at -770.46 95.25 0)
+			(at -658.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +7192,693 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188r61e106ma73d/murata-manufacturing?region=nac"
-			(at -870.46 95.25 0)
+			(at -758.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b9c674-af6f-40bd-b89d-0a8591d90b84")
+		)
+		(pin "2"
+			(uuid "8c6892d2-842a-4cc6-9a2b-f94299d57632")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SD_LIB:CPT-1404-85T")
+		(at 86.36 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8253546d-a5e1-4a38-90fd-d88989f28b6a")
+		(property "Reference" "X1"
+			(at 93.98 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CPT-1404-85T"
+			(at 93.98 121.285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SD-PIEZO:SD-CPT-1404-85T"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cpt-1404-85t.pdf"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CPT-1404-85T"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6baf5354-cf04-4cff-81bc-2772be4b82ae")
+		)
+		(pin "1"
+			(uuid "1b683585-ded8-4ecc-ab58-df334dc975cd")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d8719a-066f-4f7c-9131-63e265189bd0")
+		(property "Reference" "#PWR08"
+			(at 252.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3523b6c7-677f-4618-a3a6-9c3468824e5e")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM188R61E106MA73D")
+		(at 196.85 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f8a557d-9e79-4e73-8d59-d206bf345a9c")
+		(property "Reference" "C7"
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF GRM188R61E106MA73D"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-CAP-10:CAPC1608X90N"
+			(at 100.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM188R61E106MA73%23.html"
+			(at 0.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 25volts X5R 20%"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -199.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -299.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61E106MA73D"
+			(at -399.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at -499.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
+			(at -599.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "GRM188R61E106MA73D"
+			(at -699.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188r61e106ma73d/murata-manufacturing?region=nac"
+			(at -799.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2875c1-cdba-4495-b659-6e08c1188c9a")
+		)
+		(pin "2"
+			(uuid "e85a97fa-624e-4e2d-b7c4-11f4927b18e2")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e6a8e2-39d1-410d-a72d-f43f84bbcd62")
+		(property "Reference" "#PWR02"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08504b18-c628-465b-ab13-527447438650")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SD_LIB:0402WGF5101TCE")
+		(at 245.11 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a354acbe-0bb0-4562-87e9-89029f1dc1ce")
+		(property "Reference" "R3"
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1KOhm"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-RES-5_1K:RESC1005X40N"
+			(at 341.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 441.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor - Surface Mount 5.1KOhms +/-1% 1/16W 0402 RoHS"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 641.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 741.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF5101TCE"
+			(at 841.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 941.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 1041.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1141.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0aaab61f-bc0d-455d-a0db-052df518790a")
+		)
+		(pin "1"
+			(uuid "4294d75b-81f5-482a-a7fa-ac16fb5b15ed")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af0616e3-0553-423e-97b2-d4e4609a4667")
+		(property "Reference" "#PWR03"
+			(at 233.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3da5bb0f-e932-4f24-a9ea-31400e0442bf")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM188R61E106MA73D")
+		(at 111.76 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9b4a11c-24f1-4af4-a3e5-2ada3d31900f")
+		(property "Reference" "C3"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF GRM188R61E106MA73D"
+			(at 116.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-CAP-10:CAPC1608X90N"
+			(at 15.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM188R61E106MA73%23.html"
+			(at -84.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 25volts X5R 20%"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -284.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -384.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61E106MA73D"
+			(at -484.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at -584.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
+			(at -684.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "GRM188R61E106MA73D"
+			(at -784.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188r61e106ma73d/murata-manufacturing?region=nac"
+			(at -884.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,8 +7903,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e05af47c-147e-47df-9118-24e3d898307a")
+		(property "Reference" "#PWR011"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be9ce78-c5a5-42e2-8b5e-6f103d151b2a")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:SRN2009T-R47M")
-		(at 29.21 105.41 0)
+		(at 15.24 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +7978,7 @@
 		(dnp no)
 		(uuid "e94a30d8-ed05-4d23-972c-2dfe9053bbca")
 		(property "Reference" "L1"
-			(at 38.862 110.49 0)
+			(at 24.892 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +7986,7 @@
 			)
 		)
 		(property "Value" "SRN2009T-R47M"
-			(at 38.862 108.204 0)
+			(at 24.892 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +7994,7 @@
 			)
 		)
 		(property "Footprint" "SD-IND:INDC2016X95N"
-			(at 45.72 201.6 0)
+			(at 31.75 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +8004,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SRN2009T-R47M.pdf"
-			(at 45.72 301.6 0)
+			(at 31.75 286.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +8014,7 @@
 			)
 		)
 		(property "Description" "Inductor Power Semi-Shielded Wirewound 470nH 20% 1MHz 25Q-Factor Ferrite 2A 38mOhm DCR 0806 T/R"
-			(at 29.21 105.41 0)
+			(at 15.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +8023,7 @@
 			)
 		)
 		(property "Height" "0.95"
-			(at 45.72 501.6 0)
+			(at 31.75 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +8033,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 45.72 601.6 0)
+			(at 31.75 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +8043,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SRN2009T-R47M"
-			(at 45.72 701.6 0)
+			(at 31.75 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +8053,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SRN2009T-R47M"
-			(at 45.72 801.6 0)
+			(at 31.75 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +8063,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRN2009T-R47M?qs=xhbEVWpZdWfg36AS4swllw%3D%3D"
-			(at 45.72 901.6 0)
+			(at 31.75 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +8073,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SRN2009T-R47M"
-			(at 45.72 1001.6 0)
+			(at 31.75 986.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +8083,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/srn2009t-r47m/bourns?region=nac"
-			(at 45.72 1101.6 0)
+			(at 31.75 1086.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,8 +8108,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
+		(at 261.62 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eac83324-f2e6-4db4-a997-a4908758e34d")
+		(property "Reference" "J3"
+			(at 262.8265 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+			(at 262.8265 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 257.048 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 257.81 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A5"
+			(uuid "ddd009a2-0ff0-41bf-8e7d-fcf85e1e3374")
+		)
+		(pin "B12"
+			(uuid "55e52aa4-87b2-451c-abba-18fc51d0bb38")
+		)
+		(pin "B9"
+			(uuid "20414e39-c7a9-414b-b711-6f2c72340a2d")
+		)
+		(pin "A12"
+			(uuid "b4d43863-2bcb-4c7c-90e0-92757c49fa2e")
+		)
+		(pin "B5"
+			(uuid "c6161311-29ba-4347-8b36-a8c1163fc9fe")
+		)
+		(pin "A9"
+			(uuid "04753bd2-1987-451e-9208-4146883ce2ed")
+		)
+		(pin "S1"
+			(uuid "5e331e71-1d2d-4eee-b995-a747dd6a8bf6")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:GRM155R61E105KA12D")
-		(at 118.11 86.36 90)
+		(at 104.14 71.12 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6358,7 +8201,7 @@
 		(dnp no)
 		(uuid "edbfbc73-ecc6-4232-938d-53fc4bacee1b")
 		(property "Reference" "C4"
-			(at 110.49 92.71 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +8209,7 @@
 			)
 		)
 		(property "Value" "1uF GRM155R61E105KA12D"
-			(at 113.03 92.71 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +8217,7 @@
 			)
 		)
 		(property "Footprint" "SD-CAP1:CAPC1005X55N"
-			(at 214.3 95.25 0)
+			(at 200.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +8227,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 314.3 95.25 0)
+			(at 300.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +8237,7 @@
 			)
 		)
 		(property "Description" "MURATA - GRM155R61E105KA12D - CAP, MLCC, X5R, 1UF, 25V, 0402"
-			(at 118.11 86.36 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +8246,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 514.3 95.25 0)
+			(at 500.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +8256,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 614.3 95.25 0)
+			(at 600.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +8266,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61E105KA12D"
-			(at 714.3 95.25 0)
+			(at 700.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +8276,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R61E105KA2D"
-			(at 814.3 95.25 0)
+			(at 800.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +8286,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R61E105KA12D?qs=hiffU4J9V6bE4a81t2Mv5A%3D%3D"
-			(at 914.3 95.25 0)
+			(at 900.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +8296,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R61E105KA12D"
-			(at 1014.3 95.25 0)
+			(at 1000.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +8306,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r61e105ka12d/murata-manufacturing?region=nac"
-			(at 1114.3 95.25 0)
+			(at 1100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,6 +8325,216 @@
 			(project "SD_ProtoBoard"
 				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 143.51 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff135496-219a-4f73-b74b-3237bcb31fb9")
+		(property "Reference" "J1"
+			(at 144.145 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 144.145 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1cfa0242-ca93-479f-8083-335107879a07")
+		)
+		(pin "2"
+			(uuid "2000a1c4-beda-4c0c-9c11-0248487ac9be")
+		)
+		(pin "1"
+			(uuid "c7ff1f6b-7cb8-492e-99e0-97e54556ec86")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SD_LIB:0402WGF5101TCE")
+		(at 233.68 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffcc27fb-2575-435a-ba6c-3edbd91a9786")
+		(property "Reference" "R1"
+			(at 227.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1KOhm"
+			(at 229.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SD-RES-5_1K:RESC1005X40N"
+			(at 329.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 429.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor - Surface Mount 5.1KOhms +/-1% 1/16W 0402 RoHS"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 629.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 729.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF5101TCE"
+			(at 829.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 929.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 1029.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1129.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c91cd7d8-1e8e-4bc5-988e-85f8dd91489e")
+		)
+		(pin "1"
+			(uuid "016d915b-c8ae-4467-8ca6-4c9e8802ed86")
+		)
+		(instances
+			(project "SD_ProtoBoard"
+				(path "/cb08b567-e63e-42b0-b67b-6311c18cc70e"
+					(reference "R1")
 					(unit 1)
 				)
 			)

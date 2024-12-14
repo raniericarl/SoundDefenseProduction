@@ -63,24 +63,43 @@ void loop() {
 
 void alarmTone() {
   static unsigned long previousToneMillis = 0;
-  const unsigned long toneInterval = 0.6; // Interval for tone update (in ms)
+  static unsigned long silenceStartMillis = 0;
+  const unsigned long toneDuration = 2000; // Duration for the tone (in ms)
+  const unsigned long silenceDuration = 500; // Duration for silence (in ms)
+  const unsigned long toneInterval = 1; // Interval for tone update (in ms)
   static int x = 0;
+  static bool isToneActive = true; // Whether tone is currently active
 
   unsigned long currentMillis = millis();
-  if (currentMillis - previousToneMillis >= toneInterval) {
-    previousToneMillis = currentMillis;
+  
+  if (isToneActive) {
+    // Check if it's time to stop the tone
+    if (currentMillis - silenceStartMillis >= toneDuration) {
+      noTone(piezoPin); // Stop the tone
+      isToneActive = false; // Switch to silence period
+      silenceStartMillis = currentMillis; // Mark silence start time
+    } else if (currentMillis - previousToneMillis >= toneInterval) {
+      previousToneMillis = currentMillis;
 
-    // Generate sine wave tone
-    float sinVal = sin(x * (3.1412 / 180));
-    int toneVal = 3900 + (int(sinVal * 1000));
-    tone(piezoPin, toneVal);
+      // Generate sine wave tone between 3700 Hz and 4200 Hz
+      float sinVal = sin(x * (3.1412 / 180)); // x is in degrees
+      int toneVal = 3950 + (int(sinVal * 200)); // Center at 3950 Hz, amplitude 250 Hz
+      tone(piezoPin, toneVal);
 
-    x++;
-    if (x >= 360) {
-      x = 0;
+      x++;
+      if (x >= 360) {
+        x = 0;
+      }
+    }
+  } else {
+    // Check if silence period is over
+    if (currentMillis - silenceStartMillis >= silenceDuration) {
+      isToneActive = true; // Switch back to tone generation
+      silenceStartMillis = currentMillis; // Mark tone start time
     }
   }
 }
+
 
 void enterSleepMode() {
   set_sleep_mode(SLEEP_MODE_PWR_DOWN); // Set the desired sleep mode

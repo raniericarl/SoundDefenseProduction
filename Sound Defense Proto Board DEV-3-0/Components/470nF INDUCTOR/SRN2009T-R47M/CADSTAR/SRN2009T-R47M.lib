@@ -1,0 +1,18 @@
+.SRN2009T-R47M :1 ;Inductor Power Semi-Shielded Wirewound 470nH 20% 1MHz 25Q-Factor Ferrite 2A 38mOhm DCR 0806 T/R
+INDC2016X95N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SRN2009T-R47M
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRN2009T-R47M)
+~!Mouser Part Number (652-SRN2009T-R47M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRN2009T-R47M?qs=xhbEVWpZdWfg36AS4swllw%3D%3D)
+~!Arrow Part Number (SRN2009T-R47M)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/srn2009t-r47m/bourns?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/SRN2009T-R47M.pdf)
+~!Height (0.95mm)
+~!3D_Model (SRN2009T-R47M)
+SRN2009T-R47M
+1.1!U 2.1!U 

@@ -17,4 +17,5 @@
   (lib (name "SD-RES-10K")(type "KiCad")(uri "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/0402WGF1002TCE/KiCad")(options "")(descr ""))
   (lib (name "SD-RES-5_1K")(type "KiCad")(uri "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/0402WGF5101TCE/KiCad")(options "")(descr ""))
   (lib (name "SD-PIEZO")(type "KiCad")(uri "${KIPRJMOD}/SD-PIEZO.pretty")(options "")(descr ""))
+  (lib (name "SD-USB-C-SHORT")(type "KiCad")(uri "${KIPRJMOD}/SD-USB-C-SHORT.pretty")(options "")(descr ""))
 )

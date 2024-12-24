@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATTINY402-SSNR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2021-03-05 08:13:07
+Downloaded=2024-10-30 17:23:13
+3D=Y

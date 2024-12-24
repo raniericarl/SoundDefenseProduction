@@ -1,0 +1,9 @@
+Manufacturer=Walsin Technology Corporation
+PartNumber=0402B104K160CT
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.1
+Released=2021-04-11 14:15:45
+Downloaded=2024-10-30 17:38:22
+3D=Y

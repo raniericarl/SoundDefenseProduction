@@ -1,0 +1,18 @@
+.RC0402JR-0710KL :1 ;Yageo 10k, 0402 (1005M) Thick Film SMD Resistor +/-5% 0.0625W - RC0402JR-0710KL
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC0402JR-0710KL
+~!Manufacturer_Name (YAGEO)
+~!Manufacturer_Part_Number (RC0402JR-0710KL)
+~!Mouser Part Number (603-RC0402JR-0710KL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D)
+~!Arrow Part Number (RC0402JR-0710KL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/rc0402jr-0710kl/yageo?region=nac)
+~!Link Datasheet (https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf)
+~!Height (0.4mm)
+~!3D_Model (RC0402JR-0710KL)
+RC0402JR-0710KL
+1.1!U 2.1!U 

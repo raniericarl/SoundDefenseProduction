@@ -1,0 +1,18 @@
+.ATTINY402-SSNR :1 ;MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="PA6" 3="PA7" 4="PA1" 5="PA2" 6="PA0/'RESET'/UPDI" 7="PA3/EXTCLK" 8="GND"
+*MXP 8
+*DFN ATTINY402-SSNR
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (ATTINY402-SSNR)
+~!Mouser Part Number (579-ATTINY402-SSNR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY402-SSNR?qs=y6ZabgHbY%252ByACmf8rx9w5A%3D%3D)
+~!Arrow Part Number (ATTINY402-SSNR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/attiny402-ssnr/microchip-technology?region=nac)
+~!Link Datasheet (https://www.microchip.com/)
+~!Height (1.75mm)
+~!3D_Model (ATTINY402-SSNR)
+ATTINY402-SSNR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

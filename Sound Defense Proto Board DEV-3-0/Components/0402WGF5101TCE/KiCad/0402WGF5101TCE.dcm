@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0402WGF5101TCE
+D Chip Resistor - Surface Mount 5.1KOhms +/-1% 1/16W 0402 RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf
+$ENDCMP
+#
+#End Doc Library

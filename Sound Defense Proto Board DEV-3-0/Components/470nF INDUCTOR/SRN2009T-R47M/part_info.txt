@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SRN2009T-R47M
+PartCategory=Inductor
+PackageCategory=Inductors Chip
+PinCount=2
+Version=1.1
+Released=2019-11-26 13:17:41
+Downloaded=2024-10-30 17:51:23
+3D=Y

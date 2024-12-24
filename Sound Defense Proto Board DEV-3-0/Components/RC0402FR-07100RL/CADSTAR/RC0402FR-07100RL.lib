@@ -1,0 +1,18 @@
+.RC0402FR-07100RL :1 ;ic
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC0402FR-07100RL
+~!Manufacturer_Name (YAGEO)
+~!Manufacturer_Part_Number (RC0402FR-07100RL)
+~!Mouser Part Number (603-RC0402FR-07100RL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D)
+~!Arrow Part Number (RC0402FR-07100RL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/rc0402fr-07100rl/yageo?region=nac)
+~!Link Datasheet (https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf)
+~!Height (0.4mm)
+~!3D_Model (RC0402FR-07100RL)
+RC0402FR-07100RL
+1.1!U 2.1!U 

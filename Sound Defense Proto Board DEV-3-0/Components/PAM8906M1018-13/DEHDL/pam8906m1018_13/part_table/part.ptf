@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PAM8906M1018_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "PAM8906M1018-13" (!) = "", "SOP50P490X110-10N", "Small Outline Packages", "621-PAM8906M1018-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8906M1018-13?qs=amGC7iS6iy89BpBhX%252BV0cg%3D%3D", "", "", "Audio Amplifiers Audio Low Volt MSOP-10 T&R 2.5K", "https://www.diodes.com/assets/Datasheets/PAM8906.pdf", "1.1 mm"
+END_PART
+
+END.

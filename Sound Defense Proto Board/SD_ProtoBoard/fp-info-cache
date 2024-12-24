@@ -1,4 +1,4 @@
-23176529730228432
+23183466815532079
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -353,6 +353,13 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
+0
+2
+2
+Battery
+LP402025
+
+
 0
 2
 2
@@ -87233,6 +87240,13 @@ Connector
 0
 8
 8
+SD-INDUCTOR
+INDC2016X95N
+SRN2009T-R47M
+Inductor
+0
+2
+2
 SD-JST3
 S2BPHSM4TBLFSN
 S2B-PH-SM4-TB(LF)(SN)-2
@@ -87252,8 +87266,8 @@ SOP50P490X110-10N
 MSOP-10
 Integrated Circuit
 0
-10
-10
+11
+11
 SD-PIEZO
 SD-CPT-1404-85T
 
@@ -87289,6 +87303,13 @@ Connector
 0
 2
 2
+SD-SMD-BUZZER
+XDCR_CPT-1762-90-SMT-TR
+
+
+0
+2
+2
 SD-SWI
 436331045822
 436331045822-3
@@ -87296,6 +87317,13 @@ Switch
 0
 4
 4
+SD-USB-C-SHORT
+MC-306LS-H50
+
+
+0
+8
+8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

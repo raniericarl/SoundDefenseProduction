@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY402-SSNR
+D MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R
+K
+F https://www.microchip.com/
+$ENDCMP
+#
+#End Doc Library

@@ -724,6 +724,336 @@
 			)
 		)
 	)
+	(symbol "CPT-1762-90-SMT-TR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LS"
+			(at -1.016 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CPT-1762-90-SMT-TR"
+			(at -10.922 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CPT-1762-90-SMT-TR:XDCR_CPT-1762-90-SMT-TR"
+			(at 6.35 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 13.716 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 13.716 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.7 mm"
+			(at 12.954 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0.254 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "CPT-1762-90-SMT-TR_0_0"
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.27) (xy 0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.27) (xy 1.905 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -3.175) (xy 0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 3.175) (xy 1.905 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+"
+				(at -1.9121 1.2747 0)
+				(effects
+					(font
+						(size 1.7846 1.7846)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "-"
+				(at -1.9121 -2.7979 0)
+				(effects
+					(font
+						(size 1.7846 1.7846)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CPT_1762_90_SMT_TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MCP73831T-2ACI_OT"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1147,6 +1477,280 @@
 					)
 				)
 				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "USB-C_TOP"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -4.318 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC-306LS-H50"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB-C_TOP_1_0"
+			(polyline
+				(pts
+					(xy -7.4409 -10.7691) (xy -7.4207 -10.7706) (xy -7.4008 -10.7732) (xy -7.3813 -10.7767) (xy -7.3621 -10.7811)
+					(xy -7.3433 -10.7864) (xy -7.3248 -10.7927) (xy -7.3068 -10.7998) (xy -7.2892 -10.8077) (xy -7.2721 -10.8165)
+					(xy -7.2555 -10.826) (xy -7.2394 -10.8364) (xy -7.2238 -10.8474) (xy -7.2088 -10.8592) (xy -7.1944 -10.8717)
+					(xy -7.1807 -10.8848) (xy -7.1675 -10.8986) (xy -7.155 -10.913) (xy -7.1433 -10.928) (xy -7.1322 -10.9436)
+					(xy -7.1219 -10.9597) (xy -7.1123 -10.9763) (xy -7.1035 -10.9934) (xy -7.0956 -11.011) (xy -7.0885 -11.029)
+					(xy -7.0823 -11.0474) (xy -7.0769 -11.0663) (xy -7.0725 -11.0855) (xy -7.069 -11.105) (xy -7.0665 -11.1249)
+					(xy -7.0649 -11.145) (xy -7.0644 -11.1655) (xy -7.0649 -11.1859) (xy -7.0665 -11.206) (xy -7.069 -11.2259)
+					(xy -7.0725 -11.2455) (xy -7.0769 -11.2647) (xy -7.0823 -11.2835) (xy -7.0885 -11.3019) (xy -7.0956 -11.3199)
+					(xy -7.1035 -11.3375) (xy -7.1123 -11.3546) (xy -7.1219 -11.3713) (xy -7.1322 -11.3874) (xy -7.1433 -11.4029)
+					(xy -7.155 -11.4179) (xy -7.1675 -11.4323) (xy -7.1807 -11.4461) (xy -7.1944 -11.4592) (xy -7.2088 -11.4717)
+					(xy -7.2238 -11.4835) (xy -7.2394 -11.4946) (xy -7.2555 -11.5049) (xy -7.2721 -11.5144) (xy -7.2892 -11.5232)
+					(xy -7.3068 -11.5312) (xy -7.3248 -11.5383) (xy -7.3433 -11.5445) (xy -7.3621 -11.5498) (xy -7.3813 -11.5543)
+					(xy -7.4008 -11.5578) (xy -7.4207 -11.5603) (xy -7.4409 -11.5618) (xy -7.4613 -11.5623) (xy -7.4817 -11.5618)
+					(xy -7.5019 -11.5603) (xy -7.5217 -11.5578) (xy -7.5413 -11.5543) (xy -7.5605 -11.5498) (xy -7.5793 -11.5445)
+					(xy -7.5977 -11.5383) (xy -7.6158 -11.5312) (xy -7.6333 -11.5232) (xy -7.6505 -11.5144) (xy -7.6671 -11.5049)
+					(xy -7.6832 -11.4946) (xy -7.6987 -11.4835) (xy -7.7137 -11.4717) (xy -7.7281 -11.4592) (xy -7.7419 -11.4461)
+					(xy -7.7551 -11.4323) (xy -7.7675 -11.4179) (xy -7.7793 -11.4029) (xy -7.7904 -11.3874) (xy -7.8007 -11.3713)
+					(xy -7.8103 -11.3546) (xy -7.819 -11.3375) (xy -7.827 -11.3199) (xy -7.8341 -11.3019) (xy -7.8403 -11.2835)
+					(xy -7.8457 -11.2647) (xy -7.8501 -11.2455) (xy -7.8536 -11.2259) (xy -7.8561 -11.206) (xy -7.8576 -11.1859)
+					(xy -7.8582 -11.1655) (xy -7.8576 -11.145) (xy -7.8561 -11.1249) (xy -7.8536 -11.105) (xy -7.8501 -11.0855)
+					(xy -7.8457 -11.0663) (xy -7.8403 -11.0474) (xy -7.8341 -11.029) (xy -7.827 -11.011) (xy -7.819 -10.9934)
+					(xy -7.8103 -10.9763) (xy -7.8007 -10.9597) (xy -7.7904 -10.9436) (xy -7.7793 -10.928) (xy -7.7675 -10.913)
+					(xy -7.7551 -10.8986) (xy -7.7419 -10.8848) (xy -7.7281 -10.8717) (xy -7.7137 -10.8592) (xy -7.6987 -10.8474)
+					(xy -7.6832 -10.8364) (xy -7.6671 -10.826) (xy -7.6505 -10.8165) (xy -7.6333 -10.8077) (xy -7.6158 -10.7998)
+					(xy -7.5977 -10.7927) (xy -7.5793 -10.7864) (xy -7.5605 -10.7811) (xy -7.5413 -10.7767) (xy -7.5217 -10.7732)
+					(xy -7.5019 -10.7706) (xy -7.4817 -10.7691) (xy -7.4613 -10.7686) (xy -7.4409 -10.7691)
+				)
+				(stroke
+					(width 0.2645)
+					(type solid)
+					(color 136 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 136 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.2347 -9.8432) (xy 9.2616 -9.8453) (xy 9.288 -9.8486) (xy 9.3141 -9.8533) (xy 9.3397 -9.8592)
+					(xy 9.3648 -9.8663) (xy 9.3894 -9.8747) (xy 9.4134 -9.8841) (xy 9.4369 -9.8947) (xy 9.4597 -9.9064)
+					(xy 9.4819 -9.9192) (xy 9.5033 -9.9329) (xy 9.5241 -9.9477) (xy 9.5441 -9.9634) (xy 9.5633 -9.98)
+					(xy 9.5816 -9.9975) (xy 9.5992 -10.0159) (xy 9.6158 -10.0351) (xy 9.6315 -10.0551) (xy 9.6463 -10.0759)
+					(xy 9.66 -10.0973) (xy 9.6728 -10.1195) (xy 9.6844 -10.1423) (xy 9.695 -10.1657) (xy 9.7045 -10.1898)
+					(xy 9.7128 -10.2144) (xy 9.72 -10.2395) (xy 9.7259 -10.2651) (xy 9.7305 -10.2911) (xy 9.7339 -10.3176)
+					(xy 9.7359 -10.3445) (xy 9.7366 -10.3717) (xy 9.7366 -19.8967) (xy 9.7359 -19.9239) (xy 9.7339 -19.9508)
+					(xy 9.7305 -19.9773) (xy 9.7259 -20.0034) (xy 9.72 -20.029) (xy 9.7128 -20.0541) (xy 9.7045 -20.0787)
+					(xy 9.695 -20.1027) (xy 9.6844 -20.1261) (xy 9.6728 -20.1489) (xy 9.66 -20.1711) (xy 9.6463 -20.1926)
+					(xy 9.6315 -20.2133) (xy 9.6158 -20.2333) (xy 9.5992 -20.2525) (xy 9.5816 -20.2709) (xy 9.5633 -20.2884)
+					(xy 9.5441 -20.305) (xy 9.5241 -20.3208) (xy 9.5033 -20.3355) (xy 9.4819 -20.3493) (xy 9.4597 -20.362)
+					(xy 9.4369 -20.3737) (xy 9.4134 -20.3843) (xy 9.3894 -20.3938) (xy 9.3648 -20.4021) (xy 9.3397 -20.4092)
+					(xy 9.3141 -20.4151) (xy 9.288 -20.4198) (xy 9.2616 -20.4231) (xy 9.2347 -20.4252) (xy 9.2075 -20.4259)
+					(xy -8.255 -20.4259) (xy -8.2823 -20.4252) (xy -8.3091 -20.4231) (xy -8.3356 -20.4198) (xy -8.3617 -20.4151)
+					(xy -8.3873 -20.4092) (xy -8.4124 -20.4021) (xy -8.437 -20.3938) (xy -8.461 -20.3843) (xy -8.4845 -20.3737)
+					(xy -8.5073 -20.362) (xy -8.5294 -20.3493) (xy -8.5509 -20.3355) (xy -8.5716 -20.3208) (xy -8.5916 -20.305)
+					(xy -8.6108 -20.2884) (xy -8.6292 -20.2709) (xy -8.6467 -20.2525) (xy -8.6634 -20.2333) (xy -8.6791 -20.2133)
+					(xy -8.6938 -20.1926) (xy -8.7076 -20.1711) (xy -8.7203 -20.1489) (xy -8.732 -20.1261) (xy -8.7426 -20.1027)
+					(xy -8.7521 -20.0787) (xy -8.7604 -20.0541) (xy -8.7675 -20.029) (xy -8.7735 -20.0034) (xy -8.7781 -19.9773)
+					(xy -8.7815 -19.9508) (xy -8.7835 -19.9239) (xy -8.7842 -19.8967) (xy -8.7842 -10.3717) (xy -8.7835 -10.3445)
+					(xy -8.7815 -10.3176) (xy -8.7781 -10.2911) (xy -8.7735 -10.2651) (xy -8.7675 -10.2395) (xy -8.7604 -10.2144)
+					(xy -8.7521 -10.1898) (xy -8.7426 -10.1657) (xy -8.732 -10.1423) (xy -8.7203 -10.1195) (xy -8.7076 -10.0973)
+					(xy -8.6938 -10.0759) (xy -8.6791 -10.0551) (xy -8.6634 -10.0351) (xy -8.6467 -10.0159) (xy -8.6292 -9.9975)
+					(xy -8.6108 -9.98) (xy -8.5916 -9.9634) (xy -8.5716 -9.9477) (xy -8.5509 -9.9329) (xy -8.5294 -9.9192)
+					(xy -8.5073 -9.9064) (xy -8.4845 -9.8947) (xy -8.461 -9.8841) (xy -8.437 -9.8747) (xy -8.4124 -9.8663)
+					(xy -8.3873 -9.8592) (xy -8.3617 -9.8533) (xy -8.3356 -9.8486) (xy -8.3091 -9.8453) (xy -8.2823 -9.8432)
+					(xy -8.255 -9.8425) (xy 9.2075 -9.8425) (xy 9.2347 -9.8432)
+				)
+				(stroke
+					(width 0.2645)
+					(type solid)
+					(color 136 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USB-C_TOP_1_1"
+			(pin bidirectional line
+				(at 0 -22.86 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -11.43 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -19.05 180)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -15.24 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -12.7 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -15.24 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SAMTEC_TD-104-T-A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SAMTEC_TD-104-T-A")
+        (spec "default")
+    )
+)

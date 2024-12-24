@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TD-104-T-A"
+   (description "CONN RECEPTACLE, 2.54MM, THT VERT, 8WAY")
+   (family "CON")
+   (package "SAMTEC_TD-104-T-A")
+   (attribute "Datasheet Link" "")
+   (attribute "Manufacturer_Name" "SAMTEC")
+   (attribute "Manufacturer_Part_Number" "TD-104-T-A")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "TD-104-T-A")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/td-104-t-a/samtec")
+   (gate
+    (symbol "TD-104-T-A")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+   )
+  )
+  (symbol "TD-104-T-A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SAMTEC_TD-104-T-A"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -8.89 -3.81)
+      (pt 1.27 -3.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 1.27 -3.81)
+      (pt 1.27 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 1.27 1.27)
+      (pt -8.89 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -8.89 1.27)
+      (pt -8.89 -3.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.508)
+     (path
+      (closed false)
+      (arc (pt -7.239 -4.445) (pt -8.001 -4.826) (pt -7.239 -4.064) (start -180.0) (sweep .0))
+      (pt -8.001 -4.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.508)
+     (path
+      (closed false)
+      (arc (pt -8.001 -4.445) (pt -8.001 -4.826) (pt -7.239 -4.064) (start -180.0) (sweep 180.0))
+      (pt -7.239 -4.445))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -8.89 -3.81)
+      (pt 1.27 -3.81))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 1.27 -3.81)
+      (pt 1.27 1.27))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 1.27 1.27)
+      (pt -8.89 1.27))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -8.89 1.27)
+      (pt -8.89 -3.81))))
+   (layer TASM
+    (graphic
+     (stroke 0.508)
+     (path
+      (closed false)
+      (arc (pt -7.239 -4.445) (pt -8.001 -4.826) (pt -7.239 -4.064) (start -180.0) (sweep 90.0))
+      (pt -8.001 -4.445))))
+   (layer TASM
+    (graphic
+     (stroke 0.508)
+     (path
+      (closed false)
+      (arc (pt -8.001 -4.445) (pt -8.001 -4.826) (pt -7.239 -4.064) (start -180.0) (sweep 270.0))
+      (pt -7.239 -4.445))))
+   (leg 1 (pt -7.62 -2.54) (padstack 0))
+   (leg 2 (pt -7.62 0) (padstack 0))
+   (leg 3 (pt -5.08 -2.54) (padstack 0))
+   (leg 4 (pt -5.08 0) (padstack 0))
+   (leg 5 (pt -2.54 -2.54) (padstack 0))
+   (leg 6 (pt -2.54 0) (padstack 0))
+   (leg 7 (pt 0 -2.54) (padstack 0))
+   (leg 8 (pt 0 0) (padstack 0))
+   (padstack 0
+    (hole 0.762)
+    (plated true)
+    (pad (layer TCOP) (round 1.143))
+    (pad (layer INNER) (round 1.143))
+    (pad (layer BCOP) (round 1.143))
+   )
+  )
+ )
+)

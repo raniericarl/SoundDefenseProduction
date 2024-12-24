@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "WJ500V5082P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "WJ500V5082P")
+        (spec "default")
+    )
+)

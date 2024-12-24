@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=PAM8906M1018-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=6.1
+Released=2023-06-29 07:05:42
+Downloaded=2024-10-30 17:21:41
+3D=Y

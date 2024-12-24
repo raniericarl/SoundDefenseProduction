@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM8906M1018-13
+D Audio Amplifiers Audio Low Volt MSOP-10 T&R 2.5K
+K
+F https://www.diodes.com/assets/Datasheets/PAM8906.pdf
+$ENDCMP
+#
+#End Doc Library

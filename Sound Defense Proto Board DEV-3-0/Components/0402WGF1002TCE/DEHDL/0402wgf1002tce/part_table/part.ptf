@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '0402WGF1002TCE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "UNI-ROYAL(Uniroyal Elec)", "0402WGF1002TCE" (!) = "", "RESC1005X40N", "Resistor Chip", "", "", "", "", "Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS", "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf", "0.4 mm"
+END_PART
+
+END.

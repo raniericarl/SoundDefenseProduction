@@ -1,0 +1,314 @@
+(footprint "LEDC1608X80N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "150060GS75000")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d914e05e-3801-4ad5-b505-42ead1b7f633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TEST LED"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e78554c-dd74-489e-bfca-40884ed0c321")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "LED:LEDC1608X80N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a2b382e-30f8-4488-927e-4a494aa6f699")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f37575d-c635-4400-bfc6-e813372be111")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edf286a9-0a24-4f97-b62c-2114c0c6c04c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a04269a6-d8df-46a0-b372-00138e85f713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e74845e3-1c7e-445e-875a-3a4121a4e2f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "150060VS75000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26ba7a96-dc1f-41c2-9ecc-1a357f7c2651")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "710-150060VS75000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d40cce1-1d2e-4423-b54c-37dedbfcb818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec03a2c7-61d8-4dd2-b1bd-5831a08d9fbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7707bafc-91cb-4866-b783-6aaa5571b9af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3e461dc-bd56-46e0-a039-afd07555d7c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -0.825004)
+		(end -1.574997 0.824995)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3f20bd9-86d8-42f0-9fd4-00286d364c51")
+	)
+	(fp_line
+		(start -1.574997 0.824995)
+		(end 0.75 0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57e473c1-d79e-4e0d-a74d-0bb83d33e54a")
+	)
+	(fp_line
+		(start 0.75 -0.825)
+		(end -1.575 -0.825004)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a672b2f4-8ec5-4661-9b9b-395e79aecb87")
+	)
+	(fp_line
+		(start -1.675002 -0.924998)
+		(end 1.675001 -0.925002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ab17a21-1b4b-4df5-b171-215d2334d7b7")
+	)
+	(fp_line
+		(start -1.675001 0.925002)
+		(end -1.675002 -0.924998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "422d5c90-83f3-46b6-ba9e-1c2ba3f21330")
+	)
+	(fp_line
+		(start 1.675001 -0.925002)
+		(end 1.675002 0.924998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd8c7705-b182-4e5f-bbfb-8fbb8257a445")
+	)
+	(fp_line
+		(start 1.675002 0.924998)
+		(end -1.675001 0.925002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d026115b-a506-454a-a3a6-565dc61c029c")
+	)
+	(fp_line
+		(start -0.800001 0.399996)
+		(end -0.8 -0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df9d5eef-d378-42b2-814d-86afaba5d004")
+	)
+	(fp_line
+		(start -0.8 -0.399999)
+		(end 0.800001 -0.399996)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "059f858f-57e5-470c-bbd3-d3fa19cac444")
+	)
+	(fp_line
+		(start -0.799996 -0.132998)
+		(end -0.532995 -0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85448428-8b04-41ac-8885-deac52a7462b")
+	)
+	(fp_line
+		(start 0.8 0.399999)
+		(end -0.800001 0.399996)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4458e161-e89e-43c2-8d99-5232f7aca211")
+	)
+	(fp_line
+		(start 0.800001 -0.399996)
+		(end 0.8 0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5e127de-46dc-46bc-ab6a-7f96fbec6250")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "3fe8ef06-46d3-43f6-809c-fcbf2c449efc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.749998 -0.000003 90)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4b322366-864c-45f4-a3e1-8bebe7a5283d")
+	)
+	(pad "2" smd rect
+		(at 0.749998 0.000003 90)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "000f6149-7a1b-44cf-b950-c1a158ef985c")
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/150060VS75000/3D/150060VS75000.stp"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

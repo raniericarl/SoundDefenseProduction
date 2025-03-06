@@ -1,4 +1,4 @@
-23183466815532079
+23188677607808085
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6474,6 +6474,13 @@ banana socket
 0
 3
 3
+Connector
+CONN02_781710002_MOL
+
+781710002 
+0
+4
+4
 Connector
 CUI_PD-30
 3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
@@ -62314,6 +62321,13 @@ LED
 2
 2
 LED_SMD
+18-225A R6GHC-A01 3T
+
+
+0
+4
+4
+LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
 LED RGB SPI
@@ -62873,6 +62887,13 @@ LED RGB NeoPixel PLCC-4 5050
 0
 4
 4
+LED_SMD
+LED_SunLED_XZMYK55W-A2RT
+
+
+0
+2
+2
 LED_SMD
 LED_WS2812B-2020_PLCC4_2.0x2.0mm
 2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf

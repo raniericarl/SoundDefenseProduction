@@ -1,0 +1,194 @@
+(footprint "MC-306LS-H50"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.319996 -0.500002 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e2c3780-2d70-4933-931f-9c61dfff8db3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MC-306LS-H50"
+		(at 0.200001 -5.199974 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2260166b-e820-4bdb-a0aa-8fba8c2644e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SD-USB-C-SHORT:MC-306LS-H50"
+		(at 0.000001 -3.999999 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88b023aa-850f-45d0-909b-e8190c35c3a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4.32 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ac2f65c-5c74-464d-b192-2b1ffcbfa064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -4.32 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cff2c40-776c-4a5b-9247-50bdd2c5a7dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end 0 1.950229)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "d1b8f8d0-c1e9-4001-a053-4bd457aae9f0")
+	)
+	(fp_line
+		(start -0.500002 -1.599999)
+		(end 0.500002 -1.600001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "a47492d3-bd40-4a96-b62e-c3556dbc2c87")
+	)
+	(fp_line
+		(start -4.32 0)
+		(end 4.32 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "0df8df91-b44d-4049-8670-39dba5d35cff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.8 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43a1c8fe-0307-4059-bc17-38ffbe6271c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "8" thru_hole oval
+		(at -4.32 0 180)
+		(size 1 1.7)
+		(drill oval 0.5 1.3)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "46236574-8c63-4444-8617-0d35e04796ab")
+	)
+	(pad "9" thru_hole oval
+		(at 4.32 0 180)
+		(size 1 1.7)
+		(drill oval 0.5 1.3)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "a75ca96e-6501-4c09-8c06-b07658f3aef7")
+	)
+	(pad "A5" connect roundrect
+		(at -0.499999 -0.600001 180)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "313f3af9-ed2d-48f0-b36c-f9f59387b6e3")
+	)
+	(pad "A9" connect roundrect
+		(at 1.5 -0.599998 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "7229da14-da4b-47e9-bb2c-1c811243eb63")
+	)
+	(pad "A12" connect roundrect
+		(at 2.699997 -0.599998 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "afcca146-3851-4ca2-aec0-f5ea64b3ec3d")
+	)
+	(pad "B5" connect roundrect
+		(at 0.500001 -0.599996 180)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "07b9c69c-40df-49f3-aeae-cbbc124246eb")
+	)
+	(pad "B9" connect roundrect
+		(at -1.5 -0.600002 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "7cf0b015-7cf2-46bd-a85d-618f0ce56a25")
+	)
+	(pad "B12" connect roundrect
+		(at -2.7 -0.600002 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "fc3aa554-1968-4ffc-a6f7-9772b0fac762")
+	)
+	(model "/Users/carlranieri/Downloads/MC-306LS-H50.step"
+		(hide yes)
+		(offset
+			(xyz 0.2 -5.2 1.5)
+		)
+		(scale
+			(xyz 0.000195 0.000195 0.000195)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Downloads/OBJ_TYPE-C-SMD_MC-306LS-H50 - USB-C DUMMY.step"
+		(offset
+			(xyz 0.2 -0.2 1.5)
+		)
+		(scale
+			(xyz 0.0002 0.0002 0.0002)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

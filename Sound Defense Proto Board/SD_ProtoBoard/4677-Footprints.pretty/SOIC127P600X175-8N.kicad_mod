@@ -1,0 +1,381 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "(OA) – Narrow, 3.90 mm Body [SOIC]")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1f0d2681-090e-44b6-bd63-e3cb0fe87efb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ATTINY402-SSNR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec64f49c-d707-4b08-ac4d-4e038cb8c85e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-ATTINY:SOIC127P600X175-8N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bc5b561-e342-41ea-a566-676118aa4562")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.microchip.com/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00dea2fd-db8d-42be-95b5-bb8bff226be9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MCU 8-bit AVR RISC 4KB Flash 3.3V/5V 8-Pin SOIC W T/R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89599156-4ead-4afd-b15e-01c5020ee7fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.75"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa57b2d9-5a7c-4e3d-b059-4e9b92f76d6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9096b1b9-209b-44d2-a63a-e58110df5026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ATTINY402-SSNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d745059-c268-4368-b6d6-df74b701826e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "579-ATTINY402-SSNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e91c73a-82a4-439d-9280-3a5779e83fe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY402-SSNR?qs=y6ZabgHbY%252ByACmf8rx9w5A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72a17781-3cb1-4720-a35e-e3bb88b55d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "ATTINY402-SSNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfa455e6-1b9c-4184-8b2f-52e919e227ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny402-ssnr/microchip-technology?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1452928-5cc5-4ac8-8292-7d6cf55c0507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.449998 -2.580004)
+		(end -1.949999 -2.580001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f10a669e-16aa-4e4c-b06b-07d0ee3fdf7e")
+	)
+	(fp_line
+		(start -1.600001 2.450003)
+		(end -1.599995 -2.450002)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa73a081-4e14-4f48-9bfc-db0466817eff")
+	)
+	(fp_line
+		(start -1.599995 -2.450002)
+		(end 1.600001 -2.450003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "835c4a1e-3be1-4c50-bf75-7cffc4d62c12")
+	)
+	(fp_line
+		(start 1.599995 2.450002)
+		(end -1.600001 2.450003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59a32072-a8e3-4dba-9b7b-4e9ac0be5aa7")
+	)
+	(fp_line
+		(start 1.600001 -2.450003)
+		(end 1.599995 2.450002)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed89da5e-7472-4977-aef4-fee09b17efa1")
+	)
+	(fp_line
+		(start -3.700001 2.699999)
+		(end -3.7 -2.700001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80ca244e-bc6e-4b4f-a8d9-8f48834d0769")
+	)
+	(fp_line
+		(start -3.7 -2.700001)
+		(end 3.700001 -2.699999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "063ce3bc-9c70-481d-860f-b3ad994325a1")
+	)
+	(fp_line
+		(start 3.7 2.700001)
+		(end -3.700001 2.699999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d1a25ef-9136-4ee8-b9dc-97049f2b4489")
+	)
+	(fp_line
+		(start 3.700001 -2.699999)
+		(end 3.7 2.700001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32676e31-7bfb-4a70-ac8b-ff1af425b824")
+	)
+	(fp_line
+		(start -1.950003 2.450001)
+		(end -1.949999 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a40cf2d-5548-4dea-b69a-f365598ac44d")
+	)
+	(fp_line
+		(start -1.95 -1.180003)
+		(end -0.680001 -2.449999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "763dff37-27d7-45f1-bcf5-f9dfbce18a35")
+	)
+	(fp_line
+		(start -1.949999 -2.45)
+		(end 1.950003 -2.450001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cfb2b01-3046-4bd3-9b4d-c8fff406d53c")
+	)
+	(fp_line
+		(start 1.949999 2.45)
+		(end -1.950003 2.450001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "371c2a61-b084-4586-84a1-5a743afd09f8")
+	)
+	(fp_line
+		(start 1.950003 -2.450001)
+		(end 1.949999 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77bb60f1-f326-45f9-84d5-25c7ce6c17ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "612a68f0-24cb-4514-9d49-85072438d94b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905001 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c38007c-3bf4-4d56-84f9-584ab325e9b9")
+	)
+	(pad "2" smd rect
+		(at -2.700002 -0.634997 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a155121-639c-40f8-9df8-af2b468796ad")
+	)
+	(pad "3" smd rect
+		(at -2.699998 0.635001 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "272094af-fcb1-43b9-9020-ae89bb03ff4e")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.904999 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9aaa51ee-caf1-4d01-9f8f-1c16b4213929")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905001 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "febe2819-78e4-401b-9090-a57577c8436b")
+	)
+	(pad "6" smd rect
+		(at 2.700002 0.634997 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d4a7ce78-2e60-4925-962c-1edc87f2daa2")
+	)
+	(pad "7" smd rect
+		(at 2.699998 -0.635001 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1fedcf4-5b2e-40e4-9f16-31c0fe506b8f")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.904999 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f73858f0-4d92-48d8-9f5c-e773cf62a9f6")
+	)
+	(model "ATTINY402-SSNR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/ATTINY402-SSNR/3D/ATTINY402-SSNR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

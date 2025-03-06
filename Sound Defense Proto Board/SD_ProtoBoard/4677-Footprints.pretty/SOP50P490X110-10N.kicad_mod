@@ -1,0 +1,400 @@
+(footprint "SOP50P490X110-10N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MSOP-10")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.2 -2.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af330b7b-7d82-4fad-aa83-d84edf13ee7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PAM8906M1018-13"
+		(at 0.149998 -2.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c5f81bf6-dffd-4975-90e0-85f901616759")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-PAM:SOP50P490X110-10N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06db982-fbf7-48f6-97c5-a693b0fa0fdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8906.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c8d9c72-c73e-4e97-821a-57819041e27a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Audio Amplifiers Audio Low Volt MSOP-10 T&R 2.5K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89e72b9e-61b1-411b-9855-527e1e99b861")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6e86fa-4aaa-4f07-b070-c492e90509ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b5159e9-3bf7-4a11-9aa2-61874eae3312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PAM8906M1018-13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48d297b9-d4c0-44d7-b56f-ef2f3ae009d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-PAM8906M1018-13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7b2255-22da-4d39-9cc8-c0790da5344d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8906M1018-13?qs=amGC7iS6iy89BpBhX%252BV0cg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aaf4bb0-021d-4402-929a-ce61c891f261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a4d7240-5034-4f49-9353-75998f300c87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e593be-b455-47d2-b866-5ecba2fd4c39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.899999 -1.5)
+		(end -1.500002 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd0e7f87-bfc5-4c22-9b4f-e9fc9c1ae0b1")
+	)
+	(fp_line
+		(start -1.150001 1.500001)
+		(end -1.149995 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2766ac3f-2e5c-49a1-9cca-6069c27e1250")
+	)
+	(fp_line
+		(start -1.149995 -1.5)
+		(end 1.150001 -1.500001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "756429e8-d040-4d7e-af45-b04d8a6f7874")
+	)
+	(fp_line
+		(start 1.149995 1.5)
+		(end -1.150001 1.500001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "173c8b8f-0990-4cf6-8934-7fe08e9e4d85")
+	)
+	(fp_line
+		(start 1.150001 -1.500001)
+		(end 1.149995 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45f3f70f-6e59-4d95-b8ed-0d368de2e8a7")
+	)
+	(fp_line
+		(start -3.150002 -1.775001)
+		(end 3.149999 -1.774999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d15bc3fa-e917-4baa-91e8-24e65c34a6f3")
+	)
+	(fp_line
+		(start -3.149999 1.774999)
+		(end -3.150002 -1.775001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "149c694c-8d1c-499c-b785-ef1852d706cc")
+	)
+	(fp_line
+		(start 3.149999 -1.774999)
+		(end 3.150002 1.775001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59e1502b-35cf-451d-b727-c6b9473bb994")
+	)
+	(fp_line
+		(start 3.150002 1.775001)
+		(end -3.149999 1.774999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe7b6657-fbad-49f7-9e3b-55358568b4f9")
+	)
+	(fp_line
+		(start -1.500002 -1.5)
+		(end 1.5 -1.500002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d16c4179-96a9-4ca1-ba04-3257a5ad0826")
+	)
+	(fp_line
+		(start -1.5 1.500002)
+		(end -1.500002 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7444e9f-cc46-4ea3-817f-d812f2845e6e")
+	)
+	(fp_line
+		(start -1.499998 -0.999997)
+		(end -1.000001 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c79cabac-8cfa-400c-89a2-9a52d142850e")
+	)
+	(fp_line
+		(start 1.5 -1.500002)
+		(end 1.500002 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "686d380c-cd30-43bd-ada8-6ff4596e7125")
+	)
+	(fp_line
+		(start 1.500002 1.5)
+		(end -1.5 1.500002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7e67747-c5f6-46dc-a259-1fafd54432cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2a0e8f66-a2e4-456b-a46f-67f7197275b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 -1.000001 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc04b11b-bce6-403d-b6ca-693726a26013")
+	)
+	(pad "2" smd rect
+		(at -2.2 -0.5 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "09e53a51-3cb1-470f-a263-e52b4af79894")
+	)
+	(pad "3" smd rect
+		(at -2.2 0 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6900a92a-5d14-4eaf-bb3c-120a6bfec785")
+	)
+	(pad "4" smd rect
+		(at -2.200001 0.499999 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c058d47-68cf-4717-a115-7b91eb44666f")
+	)
+	(pad "5" smd rect
+		(at -2.200001 1.000002 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f6e1e43-2414-46f3-9ba8-d1ce6d387beb")
+	)
+	(pad "6" smd rect
+		(at 2.2 1.000001 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "104bc494-787c-4bfb-b21f-2bb3324b94a8")
+	)
+	(pad "7" smd rect
+		(at 2.2 0.5 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae9834a5-ff47-4c88-b231-de86abd26eaf")
+	)
+	(pad "8" smd rect
+		(at 2.2 0 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be64bf68-9753-4596-b90b-7480bd421c78")
+	)
+	(pad "9" smd rect
+		(at 2.200001 -0.499999 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "689ce288-380c-4e7e-b53c-4d5f594fbbb3")
+	)
+	(pad "10" smd rect
+		(at 2.200001 -1.000002 90)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19654a16-92fc-414c-8b52-6dadf779b0d2")
+	)
+	(pad "11" smd roundrect
+		(at 0 0)
+		(size 1.9 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "ca61ef75-f0f0-4e41-9664-7b15e5d9f156")
+	)
+	(model "PAM8906M1018-13.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/PAM8906M1018-13/3D/PAM8906M1018-13.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

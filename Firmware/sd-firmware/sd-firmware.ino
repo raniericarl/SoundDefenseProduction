@@ -7,7 +7,6 @@ const int ledPin = 4;        // Pin connected to the LED (PA3)
 const int piezoPin = 1;      // Pin connected to the Piezo (PA7)
 
 // Variables
-volatile bool wakeUpFlag = false;  // Flag to indicate wake-up from sleep
 bool alarmState = false;           // Current state of the alarm
 unsigned long buttonPressTime = 0; // Tracks when the button was first pressed
 bool buttonHeld = false;           // Tracks if the button is held long enough
@@ -20,15 +19,11 @@ void setup() {
   digitalWrite(piezoPin, LOW);      // Initialize Piezo to off
 
   // Enable interrupts on PA2 (buttonPin)
-  PORTA.PIN2CTRL = PORT_PULLUPEN_bm | PORT_ISC_BOTHEDGES_gc; // Enable pull-up and interrupt on both edges
+  PORTA.PIN2CTRL = PORT_PULLUPEN_bm | PORT_ISC_FALLING_gc;
   sei(); // Enable global interrupts
 }
 
 void loop() {
-  // Check the wake-up flag
-  if (wakeUpFlag) {
-    wakeUpFlag = false; // Clear the flag
-  }
 
   // Check button state
   if (digitalRead(buttonPin) == LOW) { // Button is pressed
@@ -102,18 +97,23 @@ void alarmTone() {
 
 
 void enterSleepMode() {
+  cli(); // Disable global interrupts
   set_sleep_mode(SLEEP_MODE_PWR_DOWN); // Set the desired sleep mode
   sleep_enable();                      // Enable sleep mode
+
+  // Clear any pending interrupts before sleeping
+  PORTA.INTFLAGS = PORT_INT2_bm;
+
+  sei(); // Re-enable global interrupts
   sleep_cpu();                         // Enter sleep mode
 
   // Execution continues here after waking up
   sleep_disable();                     // Disable sleep mode after waking up
 }
 
-// Interrupt Service Routine for pin change on PA2
 ISR(PORTA_PORT_vect) {
   // Clear interrupt flag for PA2
-  PORTA.INTFLAGS = PORT_INT2_bm;
-  // Set wake-up flag
-  wakeUpFlag = true;
+  if (PORTA.INTFLAGS & PORT_INT2_bm) { // Check if PA2 caused the interrupt
+    PORTA.INTFLAGS = PORT_INT2_bm;     // Clear PA2 interrupt flag
+  }
 }

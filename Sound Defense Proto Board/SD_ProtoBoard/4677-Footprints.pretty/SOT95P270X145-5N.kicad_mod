@@ -1,0 +1,363 @@
+(footprint "SOT95P270X145-5N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "(OT) [SOT-23]")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "49189066-77b9-4846-8694-eed32c01ac49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MCP73831T-2ACI_OT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e70344f-31d5-471d-b66e-893b98458ff7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-MCP:SOT95P270X145-5N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4535034a-ee26-4a5e-b3e1-5935cedd960c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d2b65fd-7769-4d7c-915d-e288aa3008ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Li-Ion Charge Controller 4.2V SOT23-5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da8f135-e583-4285-9a24-97dc87d228a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4878771c-7166-4496-9e2f-589745dd3a07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18b0339a-b21b-400f-8818-e5aca50e587b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MCP73831T-2ACI/OT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffdd94fc-e59f-4283-b97e-da76c5cfbb06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "579-MCP73831T-2ACIOT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "336e0d91-959a-47a3-b984-153a43279fef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d2cb83e-c2d3-4edd-8626-8e804ffbdd6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "MCP73831T-2ACI/OT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4942f665-a074-482d-b0cf-b01b9f6937bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcp73831t-2aciot/microchip-technology?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb706ccb-dd81-44f8-ac55-34ba179f9506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 -1.500002)
+		(end -0.549997 -1.500003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b4f32a4-9aab-413c-a090-c595fbdaf29d")
+	)
+	(fp_line
+		(start -0.200001 -1.450003)
+		(end 0.199994 -1.449999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f125760-1fbb-41ee-9017-15ac44dee7e1")
+	)
+	(fp_line
+		(start -0.199994 1.449999)
+		(end -0.200001 -1.450003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e28b96-32cc-4c3b-b3ac-8e3360a2bf02")
+	)
+	(fp_line
+		(start 0.199994 -1.449999)
+		(end 0.200001 1.450003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3a5eeb6-8f38-4845-9ae3-669cbf724b9e")
+	)
+	(fp_line
+		(start 0.200001 1.450003)
+		(end -0.199994 1.449999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2773bd5-070f-4a2d-af14-1a9eddca9919")
+	)
+	(fp_line
+		(start -2.199999 -1.800003)
+		(end 2.199999 -1.800001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a36afdb5-f476-4e91-8872-c75cc2d9cbc9")
+	)
+	(fp_line
+		(start -2.199999 1.800001)
+		(end -2.199999 -1.800003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91e2baa7-ae7f-4616-9ae2-9d6937fa85c7")
+	)
+	(fp_line
+		(start 2.199999 -1.800001)
+		(end 2.199999 1.800003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b349758f-9e19-4ada-aa88-d907492a029c")
+	)
+	(fp_line
+		(start 2.199999 1.800003)
+		(end -2.199999 1.800001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29cc3e3c-c877-4e49-8d50-d53c86cc1332")
+	)
+	(fp_line
+		(start -0.775002 -1.450004)
+		(end 0.775 -1.449998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "308f2e1e-5407-4432-bb41-34c379b0ed4e")
+	)
+	(fp_line
+		(start -0.775 1.449998)
+		(end -0.775002 -1.450004)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fd0f38d-5847-4cee-ac28-1c89b44099ad")
+	)
+	(fp_line
+		(start -0.774998 -0.499996)
+		(end 0.175 -1.450003)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bedd905e-b173-42d3-afdf-34524d0821c5")
+	)
+	(fp_line
+		(start 0.775 -1.449998)
+		(end 0.775002 1.450004)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "399928c0-277e-4f83-89c9-b3aabf3f8b38")
+	)
+	(fp_line
+		(start 0.775002 1.450004)
+		(end -0.775 1.449998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1826cd7e-ab8a-490e-88b1-91d61835e5e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1720039-1f36-4111-84d7-244e5ac56d06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.250002 -0.950008 90)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57add247-3f80-4ed6-9a9d-34ebd174e2c4")
+	)
+	(pad "2" smd rect
+		(at -1.249997 0.000001 90)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46a3b853-4937-4a78-bea0-98bedfc1c2df")
+	)
+	(pad "3" smd rect
+		(at -1.249994 0.949998 90)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "460b5ed1-ad68-452f-9ec8-bbe639c868b6")
+	)
+	(pad "4" smd rect
+		(at 1.250002 0.950008 90)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3896c07-a4d0-4d78-a479-3a40c95c26f5")
+	)
+	(pad "5" smd rect
+		(at 1.249994 -0.949998 90)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dd1625a3-02cc-41a1-be3f-564aca66497d")
+	)
+	(model "MCP73831T-2ACI_OT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/MCP73831T-2ACI_OT/3D/MCP73831T-2ACI_OT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

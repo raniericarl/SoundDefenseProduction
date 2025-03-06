@@ -1,0 +1,402 @@
+(footprint "436331045822"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "436331045822-3")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "772487b1-76cc-4d22-bf10-2ca302efbe50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SIDE SWITCH"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ecb9c3ac-ce46-48a3-ad97-0269e78f421f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-SWI:436331045822"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9bfcbcc-dfe3-44af-af0c-a60efc34dba5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436331045822.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d16c4d3-d2cf-41a3-8bf7-623ed8d621db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c65d1e1d-5608-4963-8e8f-6bdb10a2c753")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "097a8bc7-45d2-4d8e-b1ff-7330f422793b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3a21e56-278e-45df-8c31-c84d59319207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "436331045822"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "690066c1-1f28-4839-9f06-229be4ee02b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "710-436331045822"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1dba754-7a63-44c2-be41-ee39d8bb15c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e7170ad-a0b8-44a6-95fd-2933ab57bc45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28ad3f9-0707-4292-a6de-c377a53fe085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ac7cc4e-1d0e-4d99-8ecc-3eb9ce635913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.350001 -2.250001)
+		(end -0.6 -2.250001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd3f6dce-1a8a-4ed5-b418-bd4a4806be70")
+	)
+	(fp_line
+		(start 0.6 -2.250001)
+		(end 2.349999 -2.249998)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d2c1119-fe3e-472d-a3c0-2c8c6db8c0a5")
+	)
+	(fp_line
+		(start 3.8 -1.349999)
+		(end 3.8 -1.349999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af4bdef2-6a2a-48ec-b08b-b1450ee0b8ae")
+	)
+	(fp_line
+		(start 3.900001 -1.35)
+		(end 3.900001 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc664872-9e8a-4035-a7a9-e8838e450b66")
+	)
+	(fp_arc
+		(start 3.8 -1.349999)
+		(mid 3.849999 -1.400001)
+		(end 3.900001 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d3db339-7777-49f2-a00c-c124264c6e19")
+	)
+	(fp_arc
+		(start 3.900001 -1.35)
+		(mid 3.850001 -1.3)
+		(end 3.8 -1.349999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0385d47-1b24-4705-a66a-5691887774f7")
+	)
+	(fp_line
+		(start -4.400001 3.250001)
+		(end -4.399999 -3.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d101ad18-86ef-4895-99f5-ca6c956f1b10")
+	)
+	(fp_line
+		(start -4.399999 -3.249999)
+		(end 4.400001 -3.250001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "007e1986-879d-4259-a4ab-ca62cc6e960d")
+	)
+	(fp_line
+		(start 4.399999 3.249999)
+		(end -4.400001 3.250001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4c725bb-6618-4108-9df8-3ee37de17189")
+	)
+	(fp_line
+		(start 4.400001 -3.250001)
+		(end 4.399999 3.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5039b646-3216-4a46-8b88-26ee0b1b5a44")
+	)
+	(fp_line
+		(start -2.350001 -2.250001)
+		(end 2.349999 -2.249998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d45a95c7-e85f-460d-b6a8-adf4811eaa06")
+	)
+	(fp_line
+		(start -2.35 1.249998)
+		(end -2.350001 -2.250001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68eb1eb3-9ac7-4693-8d10-488e74c2c923")
+	)
+	(fp_line
+		(start -1.3 1.249999)
+		(end -1.3 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbb065e7-4ea8-4aeb-9d48-6d263a13a45b")
+	)
+	(fp_line
+		(start -1.3 2.25)
+		(end 1.3 2.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11bb42f0-a70f-492d-a85e-4ae29de3a94d")
+	)
+	(fp_line
+		(start 1.3 2.250002)
+		(end 1.3 1.250001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3da89b0-a4ee-4eab-aa43-785829cc9703")
+	)
+	(fp_line
+		(start 2.349999 -2.249998)
+		(end 2.35 1.250001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df368f0d-afa6-4b88-8b97-89bad20e2860")
+	)
+	(fp_line
+		(start 2.35 1.250001)
+		(end -2.35 1.249998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2ad268a-9efc-4b75-9024-6270aae42ff2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "62113981-359c-4974-8ebe-8b4e463227b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.875001)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c0e72414-3620-4469-8204-0cf15eb37006")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.000001 0.874998)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f46828d8-b464-472b-b0b6-53eeb8fbd8b1")
+	)
+	(pad "1" smd rect
+		(at 2.8 -1.35 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "827106c6-e725-49a6-8889-a540e9606fb6")
+	)
+	(pad "2" smd rect
+		(at 2.8 0.349999 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d914770-bb52-4e93-bf6d-5e7dcd8907e7")
+	)
+	(pad "3" smd rect
+		(at -2.8 -1.349999 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3cbbd82d-38ba-45a2-8648-c0673ef913fb")
+	)
+	(pad "4" smd rect
+		(at -2.799999 0.349999 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2635f9d8-60d0-4425-b1a1-536d49bc26e9")
+	)
+	(model "436331045822.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/SIDE SWITCH/436331045822/3D/436331045822.stp"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

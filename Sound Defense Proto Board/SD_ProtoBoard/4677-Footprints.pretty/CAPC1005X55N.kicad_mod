@@ -1,0 +1,274 @@
+(footprint "CAPC1005X55N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0402")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1c144c1f-6155-4bf0-aa48-49e1714ec38e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "0.1uF"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3b5eabb8-dc11-4564-9915-adaca47080c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-01-CAP:CAPC1005X55N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4195c8d2-9f24-4c37-8ee5-93e050267ccb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/0402B104K160CT.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "794ba3b2-de76-4706-b212-0756ae451054")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10% 16V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4720ec3-d614-49e1-bd7b-dd315f436d73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.55"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6ffae27-1b02-4a2a-85cb-7b5f201f84d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Walsin Technology Corporation"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e3ee0c-6a8b-4a33-a754-be31ad98f20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "0402B104K160CT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1840d3c7-6482-4316-9260-3dc22c307910")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "791-0402B104K160CT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb8f4e5-fdec-43a6-83a0-712ff4eaaa9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/0402B104K160CT?qs=fIkAfuXiAQJ1PS4dYXnTSQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3894e2c3-aa06-4a56-83e3-04f415bba47b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba798fee-a552-4e53-a5a6-be7429471bf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a5e4ed3-9204-4345-866d-44e55f4a8474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.910001 0.460002)
+		(end -0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75f26cf7-edde-4479-a142-c6802edb0401")
+	)
+	(fp_line
+		(start -0.91 -0.46)
+		(end 0.910001 -0.460002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4435bf00-cdff-4e0e-bbcc-79c5e7f4ca95")
+	)
+	(fp_line
+		(start 0.91 0.46)
+		(end -0.910001 0.460002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbd0dd1d-4ecc-4b0c-b8d3-f092c1d44c18")
+	)
+	(fp_line
+		(start 0.910001 -0.460002)
+		(end 0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff58cc60-d27a-4650-b305-b6bbc89be47a")
+	)
+	(fp_line
+		(start -0.500001 -0.249999)
+		(end 0.5 -0.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef5199e1-8d42-46b3-a6da-818de8ec0544")
+	)
+	(fp_line
+		(start -0.5 0.250002)
+		(end -0.500001 -0.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48619031-dff5-4e88-82a6-0a601e52e801")
+	)
+	(fp_line
+		(start 0.5 -0.250002)
+		(end 0.500001 0.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bc2ea7e-14be-43de-a6ed-015e3f6310b7")
+	)
+	(fp_line
+		(start 0.500001 0.249999)
+		(end -0.5 0.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "326b71c8-f610-4997-baa4-29894cd67637")
+	)
+	(pad "1" smd rect
+		(at -0.480002 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe36bc3f-202d-4c30-b641-3709b908ee24")
+	)
+	(pad "2" smd rect
+		(at 0.480002 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "606790ad-69e7-4df2-92e4-430efdb0ccc3")
+	)
+	(model "0402B104K160CT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/100nF CAP/0402B104K160CT/3D/0402B104K160CT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

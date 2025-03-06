@@ -1,0 +1,295 @@
+(footprint "INDC2016X95N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRN2009T-R47M")
+	(tags "Inductor")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "178be2c4-1681-4d8a-9cdd-b6f7cff485bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRN2009T-R47M"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afbf28ae-9e7d-4b58-ae3d-2808cbec8799")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-INDUCTOR:INDC2016X95N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cabcd5ad-b3ab-445e-978c-3b60decef43e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SRN2009T-R47M.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7534245-404d-4069-afd0-78d52d54a57c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor Power Semi-Shielded Wirewound 470nH 20% 1MHz 25Q-Factor Ferrite 2A 38mOhm DCR 0806 T/R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24559989-5c9d-413f-8eee-5cccd5c055a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.95"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02a7a2fa-d18e-4ee4-8785-6f3d69ce3bf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Bourns"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef822858-7850-4212-b58f-e3ef11e2c210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SRN2009T-R47M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4998c2e-6317-413c-a708-1a1c38f224d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "652-SRN2009T-R47M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67f1fc3f-4780-409b-a108-f4696b774e1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRN2009T-R47M?qs=xhbEVWpZdWfg36AS4swllw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6b44d8c-76ef-4a33-932d-f860a28ee0a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "SRN2009T-R47M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23fd63af-c7bf-4f0c-b8ab-262ce0b2c06e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/srn2009t-r47m/bourns?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e72de73e-8f9c-49ee-a56c-4b35dbd80ee2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.725001)
+		(end 0 0.725001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0711895-c6b1-4d0b-849c-6b926876f4db")
+	)
+	(fp_line
+		(start -1.725003 -1.199995)
+		(end 1.725002 -1.199997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe6d7b64-0c95-4aa1-a137-d72189644400")
+	)
+	(fp_line
+		(start -1.725002 1.199997)
+		(end -1.725003 -1.199995)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d173376-2a53-4e28-8946-c00c685de6f6")
+	)
+	(fp_line
+		(start 1.725002 -1.199997)
+		(end 1.725003 1.199995)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1890339-7af0-4d22-8caf-731a09b9ec7a")
+	)
+	(fp_line
+		(start 1.725003 1.199995)
+		(end -1.725002 1.199997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4fac809-04c0-4e7e-9e56-7c7e389d9a08")
+	)
+	(fp_line
+		(start -1.025001 0.825002)
+		(end -1.025 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "408bd5bf-8ab0-4226-a3d8-2db60aed709e")
+	)
+	(fp_line
+		(start -1.025 -0.825)
+		(end 1.025001 -0.825002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87557359-e904-493f-a2f0-4d0356586b8a")
+	)
+	(fp_line
+		(start 1.025 0.825)
+		(end -1.025001 0.825002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17d0bcad-2f9e-4fa7-b087-b21dbc2421d6")
+	)
+	(fp_line
+		(start 1.025001 -0.825002)
+		(end 1.025 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2243ce0e-ad26-4f74-a5d7-1bcf2bd80528")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "7237394e-867c-40a6-98bc-b7e0a9761658")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.15 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1605f8c8-2209-4475-8ab7-268146ee8b78")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.15 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "747a4a11-5b53-4d61-8358-9421fbde21f7")
+	)
+	(model "SRN2009T-R47M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/470nF INDUCTOR/SRN2009T-R47M/3D/SRN2009T-R47M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

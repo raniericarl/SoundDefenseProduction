@@ -1,0 +1,284 @@
+(footprint "CAPC1608X90N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7317d9c9-9ba4-4ebf-8e58-11ef9d8d9f69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ffcc9a23-0891-445d-bd9f-96fa8db45bd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-CAP-10:CAPC1608X90N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fecd1581-5c34-4ae5-a9ad-37520a32916b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM188R61E106MA73%23.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c82ed274-e80d-456e-ab03-b426f92b706a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 25volts X5R 20%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a11db8ae-2151-4a1b-a5d4-b1041e6012fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.9"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bea49363-ab0b-452e-b905-78c61fd1f5dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ad61be1-60c6-47f1-ac82-760957dded28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "GRM188R61E106MA73D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c079507-8c6e-465b-90ca-244bcb501a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8bf5bc0-a746-42dd-b1ea-6b6598a5f9cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a5a69d8-f842-4af2-9953-37884d8bec02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "GRM188R61E106MA73D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d1bdecb6-e5bf-47b6-99ba-4e09e35da446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188r61e106ma73d/murata-manufacturing?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28176e95-b224-491a-b13c-ec75e49d3f5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.225001 -0.62)
+		(end 1.224999 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9449139-045e-4c4c-b53d-21080b6bb2f5")
+	)
+	(fp_line
+		(start -1.224999 0.62)
+		(end -1.225001 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c683f87b-bfdc-48b6-923e-8b62332af391")
+	)
+	(fp_line
+		(start 1.224999 -0.62)
+		(end 1.225001 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fed9936a-ba1e-4960-a462-b8912644924a")
+	)
+	(fp_line
+		(start 1.225001 0.62)
+		(end -1.224999 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7da8d86-bd65-44c5-9242-97831db80d7e")
+	)
+	(fp_line
+		(start -0.800004 0.399999)
+		(end -0.800001 -0.399998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1339abc1-7b12-45a9-a372-c3b555a0cf79")
+	)
+	(fp_line
+		(start -0.800001 -0.399998)
+		(end 0.800004 -0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "677ab662-a396-4acc-bb04-5e6814ad59de")
+	)
+	(fp_line
+		(start 0.800001 0.399998)
+		(end -0.800004 0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeeb9f2f-5951-4d3e-8c89-a6375e58ec9d")
+	)
+	(fp_line
+		(start 0.800004 -0.399999)
+		(end 0.800001 0.399998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8035c996-233b-41d1-ae5d-a16c7b7377b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "04bb59f6-9ad9-492a-a9c1-4f52fe4f64fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.699996 0.000003)
+		(size 0.75 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "885065d0-0b8f-4828-b3a2-166e986fbbc0")
+	)
+	(pad "2" smd rect
+		(at 0.699996 -0.000003)
+		(size 0.75 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87d60bf9-5651-4d98-8555-28c26251b0f7")
+	)
+	(model "GRM188R61E106MA73D.stp"
+		(offset
+			(xyz 0 0.4499999813 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board/Components/10uF CAP/GRM188R61E106MA73D/3D/GRM188R61E106MA73D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

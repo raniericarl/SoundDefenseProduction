@@ -1,0 +1,211 @@
+(footprint "18-225A R6GHC-A01 3T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.099999 -6.739998 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ae58485-6a00-405b-93d9-0b2a310453ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "18-225A/R6GHC-A01/3T"
+		(at -0.350003 -5.249998 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1309a9a-029b-419e-b12d-cc08e284a89f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_SMD:18-225A R6GHC-A01 3T"
+		(at -0.349999 -6.249999 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93cba825-b74d-4603-871f-1de32eb032c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811141822_Everlight-Elec-18-225A-R6GHC-A01-3T_C264440.pdf"
+		(at -0.349999 -6.249999 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0601d964-ac46-41be-b94f-6fa9a1e5b110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED dual red/green, 4-pin"
+		(at -0.349999 -6.249999 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40145043-d209-4b50-9fbf-20c4769e6bb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.1 0)
+		(end -0.1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43ddf239-32ea-4304-943d-ab2bfc36cd67")
+	)
+	(fp_line
+		(start 0.099995 -0.349998)
+		(end 0.100006 0.349998)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11f1e9e9-e11d-4335-99b6-c365ef6d2ce6")
+	)
+	(fp_circle
+		(center 1.15 0.45)
+		(end 1.249999 0.500002)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d58fe403-bf9c-4f89-beea-ee9845a79089")
+	)
+	(fp_poly
+		(pts
+			(xy 0.949993 0.649996) (xy -0.950002 0.649997) (xy -0.949993 -0.649996) (xy 0.950002 -0.649997)
+		)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8b548aca-a1f5-42b2-b0ae-171f3bc62e0d")
+	)
+	(fp_text user "+"
+		(at 0.949999 0.500006 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02f8eebb-df1a-4282-8441-5bcea1c82c00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.349997 -3.75 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aebbb3ba-8437-410c-8710-3aecf7ec4dac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -2.399999 0.500002 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d38bc002-ea97-42f2-a6d5-9c9361dcae4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd custom
+		(at 0.650004 0.349999 180)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "c8fee606-df98-4c1c-9b4a-3057da3ee3a7")
+	)
+	(pad "2" smd custom
+		(at 0.649998 -0.349992 180)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "c21df043-9a23-42fb-b838-d8776a09e4f6")
+	)
+	(pad "3" smd custom
+		(at -0.650004 -0.349999 180)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "f3f54f97-fea7-4881-9e67-e2b6fa5b853c")
+	)
+	(pad "4" smd custom
+		(at -0.649998 0.349992 180)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "9771e4c8-c0f1-43f9-a020-555fe903abcb")
+	)
+	(model "/Users/carlranieri/Downloads/EAST1608BRA.STEP"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

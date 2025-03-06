@@ -1,0 +1,285 @@
+(footprint "RESC1005X40N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RC0402")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0.93 1.65 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a04f336e-c35a-4be5-8a8a-5a088b398072")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "100 Ohms"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0022351e-746e-4236-a584-1628e952e748")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SD-RES:RESC1005X40N"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc203ce-7b11-492b-9827-8e1166386fc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccffd2ed-cc97-4b2a-b455-b9e4f4ca1337")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "ic"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96a4f0e4-5fd9-46b9-8709-76de8b87cfdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.4"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0258fd9a-55be-4f1e-b3c4-d83ee00dc8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "YAGEO"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12a2f3c9-2c5a-4e98-a43e-4f6981dae452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b6fbc40-7edb-4ca4-99db-9c8273f043ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "603-RC0402FR-07100RL"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b324511-96c5-4e2b-a141-aed0ba2b9026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773c3d2d-e564-409f-9cd4-eca4e838aee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "RC0402FR-07100RL"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e325344-247f-44cd-91ad-ddb8b7f6dde2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo?region=nac"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df8d7d87-dce4-432c-a4e1-6c5b50336382")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.175003 0.550009)
+		(end -1.174999 0.550003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fcb2f63-49cf-4516-acf2-c6b6dce9e54d")
+	)
+	(fp_line
+		(start 1.174999 -0.550003)
+		(end 1.175003 0.550009)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f87afe11-7079-423f-b7d2-d979e511f803")
+	)
+	(fp_line
+		(start -1.174999 0.550003)
+		(end -1.175003 -0.550009)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "324a02d4-ad8f-4beb-866a-0af7524f3c77")
+	)
+	(fp_line
+		(start -1.175003 -0.550009)
+		(end 1.174999 -0.550003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72932a28-453c-4348-bf3f-b7b5ae77b8e2")
+	)
+	(fp_line
+		(start 0.500007 0.250005)
+		(end -0.49999 0.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de41660b-ab54-4779-aae3-cf04e8920fbf")
+	)
+	(fp_line
+		(start 0.49999 -0.250002)
+		(end 0.500007 0.250005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b2ac236-668a-4f8c-b167-45fbe2a911d6")
+	)
+	(fp_line
+		(start -0.49999 0.250002)
+		(end -0.500007 -0.250005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a998ce9f-5c35-480d-94a4-89d86e188dd8")
+	)
+	(fp_line
+		(start -0.500007 -0.250005)
+		(end 0.49999 -0.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ff88610-e7a0-4d9e-856d-f4089819d39d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "6d92d746-f3fb-4562-a755-fbf12c626fe0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0 270)
+		(size 0.6 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0acd87d4-7f4d-4b84-a66f-fd39bb8cca9d")
+	)
+	(pad "2" smd rect
+		(at 0.55 0 270)
+		(size 0.6 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6cf187b7-3291-4d9c-8f4e-e9d921c85a39")
+	)
+	(model "RC0402JR-0710KL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/carlranieri/Documents/GitHub/SoundDefenseProduction/Sound Defense Proto Board DEV-3-0/Components/RC0402JR-0710KL/3D/RC0402JR-0710KL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
